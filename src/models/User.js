@@ -25,6 +25,14 @@ const userSchema = new mongoose.Schema(
       enum: ['customer', 'admin'],
       default: 'customer',
     },
+    resetToken: {
+      type: String,
+      default: null,
+    },
+    resetTokenExpiry: {
+      type: Date,
+      default: null,
+    },
   },
   { timestamps: true }
 );
@@ -42,10 +50,12 @@ userSchema.methods.comparePassword = function (candidatePassword) {
   return bcrypt.compare(candidatePassword, this.password);
 };
 
-// Never send the password hash back in API responses
+// Never send the password hash or reset token back in API responses
 userSchema.methods.toJSON = function () {
   const obj = this.toObject();
   delete obj.password;
+  delete obj.resetToken;
+  delete obj.resetTokenExpiry;
   return obj;
 };
 
