@@ -121,8 +121,6 @@ router.post(
       const { email } = req.body;
       const user = await User.findOne({ email });
 
-      // Always respond the same way, whether or not the email exists,
-      // so this endpoint can't be used to check which emails are registered.
       const genericResponse = {
         message: 'If an account with that email exists, a reset link has been sent.',
       };
@@ -145,15 +143,17 @@ router.post(
           subject: 'Reset your Sky Limited Stores password',
           html: `
             <p>Hi ${user.name},</p>
-            <p>We received a request to reset your password. Click the link below to set a new one. This link expires in 1 hour.</p>
-            <p><a href="${resetUrl}">${resetUrl}</a></p>
+            <p>We received a request to reset your password. Click the button below to set a new one. This link expires in 1 hour.</p>
+            <p style="margin: 24px 0;">
+              <a href="${resetUrl}" style="background-color:#00ff9d; color:#0a0e27; padding:12px 28px; border-radius:6px; text-decoration:none; font-weight:bold; display:inline-block;">
+                Reset Password
+              </a>
+            </p>
+            <p>Or copy and paste this link into your browser:<br>${resetUrl}</p>
             <p>If you didn't request this, you can safely ignore this email.</p>
           `,
         });
       } catch (emailErr) {
-        // Log the real error for debugging, but still return the generic
-        // response so we don't leak whether the email send failed or the
-        // account simply doesn't exist.
         console.error('Brevo email send error:', emailErr);
       }
 
