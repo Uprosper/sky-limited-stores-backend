@@ -10,6 +10,7 @@ const productRoutes = require('./routes/products');
 const orderRoutes = require('./routes/orders');
 const contactRoutes = require('./routes/contact');
 const webhookRoutes = require('./routes/webhooks');
+const adminSeedRoute = require('./routes/admin');
 
 const app = express();
 
