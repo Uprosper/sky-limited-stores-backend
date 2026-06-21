@@ -2,18 +2,43 @@ const express = require('express');
 const jwt = require('jsonwebtoken');
 const crypto = require('crypto');
 const { body, validationResult } = require('express-validator');
-const { Resend } = require('resend');
 const User = require('../models/User');
 const { requireAuth } = require('../middleware/auth');
 const router = express.Router();
-
-const resend = new Resend(process.env.RESEND_API_KEY);
 
 // Helper to sign a JWT for a given user id
 function signToken(userId) {
   return jwt.sign({ id: userId }, process.env.JWT_SECRET, {
     expiresIn: process.env.JWT_EXPIRES_IN || '7d',
   });
+}
+
+// Helper to send an email via Brevo's REST API
+async function sendBrevoEmail({ to, toName, subject, html }) {
+  const response = await fetch('https://api.brevo.com/v3/smtp/email', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+      Accept: 'application/json',
+      'api-key': process.env.BREVO_API_KEY,
+    },
+    body: JSON.stringify({
+      sender: {
+        name: 'Sky Limited Stores',
+        email: process.env.BREVO_SENDER_EMAIL, // must be a verified sender in Brevo
+      },
+      to: [{ email: to, name: toName }],
+      subject,
+      htmlContent: html,
+    }),
+  });
+
+  if (!response.ok) {
+    const errorBody = await response.text();
+    throw new Error(`Brevo send failed (${response.status}): ${errorBody}`);
+  }
+
+  return response.json();
 }
 
 // --- POST /api/auth/signup ---
@@ -113,17 +138,24 @@ router.post(
 
       const resetUrl = `${process.env.FRONTEND_URL}/reset-password.html?token=${token}`;
 
-      await resend.emails.send({
-        from: 'Sky Limited Stores <onboarding@resend.dev>',
-        to: user.email,
-        subject: 'Reset your Sky Limited Stores password',
-        html: `
-          <p>Hi ${user.name},</p>
-          <p>We received a request to reset your password. Click the link below to set a new one. This link expires in 1 hour.</p>
-          <p><a href="${resetUrl}">${resetUrl}</a></p>
-          <p>If you didn't request this, you can safely ignore this email.</p>
-        `,
-      });
+      try {
+        await sendBrevoEmail({
+          to: user.email,
+          toName: user.name,
+          subject: 'Reset your Sky Limited Stores password',
+          html: `
+            <p>Hi ${user.name},</p>
+            <p>We received a request to reset your password. Click the link below to set a new one. This link expires in 1 hour.</p>
+            <p><a href="${resetUrl}">${resetUrl}</a></p>
+            <p>If you didn't request this, you can safely ignore this email.</p>
+          `,
+        });
+      } catch (emailErr) {
+        // Log the real error for debugging, but still return the generic
+        // response so we don't leak whether the email send failed or the
+        // account simply doesn't exist.
+        console.error('Brevo email send error:', emailErr);
+      }
 
       res.json(genericResponse);
     } catch (err) {
