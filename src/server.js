@@ -44,6 +44,7 @@ app.use(
     origin: allowedOrigins.includes('*') ? '*' : allowedOrigins,
   })
 );
+app.use(express.static('public'));
 
 // Basic rate limiting to slow down brute-force attempts on auth routes
 const authLimiter = rateLimit({
