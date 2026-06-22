@@ -1,3 +1,4 @@
+const path = require('path');
 require('dotenv').config();
 
 const express = require('express');
@@ -44,7 +45,7 @@ app.use(
     origin: allowedOrigins.includes('*') ? '*' : allowedOrigins,
   })
 );
-app.use(express.static('public'));
+app.use(express.static(path.join(__dirname, '../public')));
 
 // Basic rate limiting to slow down brute-force attempts on auth routes
 const authLimiter = rateLimit({
