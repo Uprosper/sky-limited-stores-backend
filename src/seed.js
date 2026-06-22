@@ -165,16 +165,15 @@ async function seed() {
     await Product.deleteMany({});
     console.log('🗑 Cleared old products');
 
-    const productsWithImages = products.map((p) => ({
-      ...p,
-      image:
-        p.image && p.image.trim() !== ''
-          ? p.image
-          : defaultImages[p.category] || '/images/default.jpg',
-      active: true,
-    }));
+   
+const productsWithImages = products.map((product, index) => ({
+  ...product,
+  image: `/images/${index + 1}.PNG`,
+  active: true,
+}));
 
-    const inserted = await Product.insertMany(productsWithImages);
+const inserted = await Product.insertMany(productsWithImages);
+    
 
     console.log(`🌱 Inserted ${inserted.length} products`);
 
