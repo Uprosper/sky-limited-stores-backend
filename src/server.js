@@ -9,8 +9,10 @@ const connectDB = require('./config/db');
 const authRoutes = require('./routes/auth');
 const productRoutes = require('./routes/products');
 const orderRoutes = require('./routes/orders');
+// const adminSeedRoute = require('./routes/admin');
 const contactRoutes = require('./routes/contact');
 const webhookRoutes = require('./routes/webhooks');
+// const adminSeedRoute = require('./routes/admin');
 const adminSeedRoute = require('./routes/admin');
 
 const app = express();
