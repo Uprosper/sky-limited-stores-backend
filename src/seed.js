@@ -76,7 +76,7 @@ const products = [
     description: 'DB107 1A / DB207 2A 1000V DIP-4 bridge rectifier diodes, flexible quantity packs for electronics projects.',
     price:       2367.15,
     oldPrice:    1690.82,
-    tag:         'Choice',
+    tag:         'New',
     stock:       300,
   },
   {
@@ -94,7 +94,7 @@ const products = [
     description: 'KBP307 3A 1000V DIP-4 bridge rectifiers in a pack of 10. High current capacity for power supply designs.',
     price:       3271.04,
     oldPrice:    2336.46,
-    tag:         'Choice',
+    tag:         'Hot',
     stock:       120,
   },
 
@@ -206,7 +206,7 @@ const products = [
     description: 'Pulley-design wire stripper for quick, accurate line splitting and stripping during electrical work.',
     price:       7452.20,
     oldPrice:    5323.00,
-    tag:         'Choice',
+    tag:         'New',
     stock:       40,
   },
   {
@@ -224,7 +224,7 @@ const products = [
     description: 'Practical, durable tool for everyday tasks and outdoor activities.',
     price:       8309.00,
     oldPrice:    5935.00,
-    tag:         'Choice',
+    tag:         'Hot',
     stock:       50,
   },
   {
@@ -271,7 +271,7 @@ const products = [
     description: 'Smart 3D VR headset for immersive mobile virtual reality experiences, adjustable strap and lenses.',
     price:       17540.60,
     oldPrice:    12529.00,
-    tag:         'Choice',
+    tag:         'Hot',
     stock:       15,
   },
   {
@@ -309,7 +309,7 @@ const products = [
     description: 'Professional-grade hair and beard clipper with multiple guide combs and long battery life.',
     price:       7092.40,
     oldPrice:    5066.00,
-    tag:         'Choice',
+    tag:         'Hot',
     stock:       30,
   },
   {
@@ -412,7 +412,7 @@ const products = [
     description: 'Durable, stylish unisex bag suitable for daily use, travel, or work. Multiple compartments for organised storage.',
     price:       16023.00,
     oldPrice:    11445.00,
-    tag:         'Choice',
+    tag:         'Hot',
     stock:       50,
   },
   {
@@ -466,7 +466,7 @@ const products = [
     description: 'Durable, stylish unisex bag suitable for daily use, travel, or work. Multiple compartments for organised storage.',
     price:       6553.40,
     oldPrice:    4681.00,
-    tag:         'Choice',
+    tag:         'Hot',
     stock:       50,
   },
   {
@@ -493,7 +493,7 @@ const products = [
     description: 'Durable, stylish unisex bag suitable for daily use, travel, or work. Multiple compartments for organised storage.',
     price:       9790.20,
     oldPrice:    6993.00,
-    tag:         'Choice',
+    tag:         'Hot',
     stock:       50,
   },
   {
@@ -567,7 +567,7 @@ const products = [
     description: 'Comfortable, breathable unisex footwear designed for everyday wear, casual outings, or light sports activity.',
     price:       15099.00,
     oldPrice:    10785.00,
-    tag:         'Choice',
+    tag:         'Hot',
     stock:       50,
   },
   {
@@ -621,7 +621,7 @@ const products = [
     description: 'Comfortable, breathable unisex footwear designed for everyday wear, casual outings, or light sports activity.',
     price:       22407.00,
     oldPrice:    16005.00,
-    tag:         'Choice',
+    tag:         'Hot',
     stock:       50,
   },
   {
@@ -675,7 +675,7 @@ const products = [
     description: 'Comfortable, breathable unisex footwear designed for everyday wear, casual outings, or light sports activity.',
     price:       12777.80,
     oldPrice:    9127.00,
-    tag:         'Choice',
+    tag:         'Hot',
     stock:       50,
   },
   {
@@ -729,7 +729,7 @@ const products = [
     description: 'Comfortable, breathable unisex footwear designed for everyday wear, casual outings, or light sports activity.',
     price:       13039.60,
     oldPrice:    9314.00,
-    tag:         'Choice',
+    tag:         'Hot',
     stock:       50,
   },
   {
@@ -783,7 +783,7 @@ const products = [
     description: 'Comfortable, breathable unisex footwear designed for everyday wear, casual outings, or light sports activity.',
     price:       16007.60,
     oldPrice:    11434.00,
-    tag:         'Choice',
+    tag:         'Hot',
     stock:       50,
   },
 
@@ -839,7 +839,7 @@ const products = [
     description: 'Stylish quartz watch with reliable movement, suitable for casual or business wear.',
     price:       4044.60,
     oldPrice:    2889.00,
-    tag:         'Choice',
+    tag:         'Hot',
     stock:       50,
   },
   {
@@ -893,7 +893,7 @@ const products = [
     description: 'Stylish quartz watch with reliable movement, suitable for casual or business wear.',
     price:       7606.20,
     oldPrice:    5433.00,
-    tag:         'Choice',
+    tag:         'Hot',
     stock:       50,
   },
   {
@@ -949,7 +949,7 @@ const products = [
     description: 'Handy accessory designed to enhance comfort, convenience, or device functionality.',
     price:       7285.60,
     oldPrice:    5204.00,
-    tag:         'Choice',
+    tag:         'Hot',
     stock:       50,
   },
   {
@@ -985,7 +985,7 @@ const products = [
     description: 'Handy accessory designed to enhance comfort, convenience, or device functionality.',
     price:       1710.80,
     oldPrice:    1222.00,
-    tag:         'Choice',
+    tag:         'Hot',
     stock:       50,
   },
   {
@@ -1050,7 +1050,7 @@ const products = [
     description: 'Trendy, comfortable cotton clothing piece, true to size, designed for everyday casual wear.',
     price:       25561.20,
     oldPrice:    18258.00,
-    tag:         'Choice',
+    tag:         'Hot',
     stock:       50,
   },
   {
@@ -1095,7 +1095,7 @@ const products = [
     description: 'Trendy, comfortable cotton clothing piece, true to size, designed for everyday casual wear.',
     price:       16935.80,
     oldPrice:    12097.00,
-    tag:         'Choice',
+    tag:         'Hot',
     stock:       50,
   },
   {
