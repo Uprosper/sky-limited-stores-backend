@@ -69,7 +69,7 @@ app.use('/api/products', productRoutes);
 app.use('/api/orders', orderRoutes);
 app.use('/api/contact', contactRoutes);
 app.use('/api/admin', adminSeedRoute);
-
+// app.use('/api/admin', adminSeedRoute);
 // --- 404 handler ---
 app.use((req, res) => {
   res.status(404).json({ error: 'Route not found.' });
