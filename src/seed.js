@@ -3,23 +3,7 @@
 require('dotenv').config();
 const mongoose = require('mongoose');
 
-const ProductSchema = new mongoose.Schema(
-  {
-    name:        { type: String, required: true, trim: true },
-    category:    { type: String, required: true, trim: true },
-    description: { type: String, default: '' },
-    price:       { type: Number, required: true },
-    oldPrice:    { type: Number, default: null },
-    image:       { type: String, default: '' },
-    tag:         { type: String, default: '' },
-    stock:       { type: Number, default: 100 },
-    active:      { type: Boolean, default: true },
-    autodsId:    { type: String, default: null },
-  },
-  { timestamps: true }
-);
-
-const Product = mongoose.models.Product || mongoose.model('Product', ProductSchema);
+const Product = require('./src/models/Product');
 
 const products = [
   // ── Lighters / Igniters ───────────────────────────────────────────────────
