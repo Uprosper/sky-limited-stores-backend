@@ -1,5 +1,4 @@
 const mongoose = require('mongoose');
-
 const productSchema = new mongoose.Schema(
   {
     name: {
@@ -32,7 +31,7 @@ const productSchema = new mongoose.Schema(
     },
     tag: {
       type: String,
-      enum: ['New', 'Hot', 'Sale', null],
+      enum: ['New', 'Hot', 'Sale', '', null],
       default: null,
     },
     stock: {
@@ -40,7 +39,6 @@ const productSchema = new mongoose.Schema(
       default: 0,
       min: 0,
     },
-    // Optional reference to the source listing on AutoDS, for syncing later
     autodsId: {
       type: String,
       default: null,
@@ -52,5 +50,4 @@ const productSchema = new mongoose.Schema(
   },
   { timestamps: true }
 );
-
 module.exports = mongoose.models.Product || mongoose.model('Product', productSchema);
