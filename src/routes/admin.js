@@ -7,18 +7,20 @@ const seedProducts = require('../data/seedProducts');
 router.get('/seed', async (req, res) => {
   try {
     const { key } = req.query;
-
     if (!process.env.SEED_SECRET_KEY) {
       return res.status(500).json({ error: 'SEED_SECRET_KEY not set on server.' });
     }
-
     if (key !== process.env.SEED_SECRET_KEY) {
       return res.status(401).json({ error: 'Unauthorized.' });
     }
-
     await Product.deleteMany({});
-    const inserted = await Product.insertMany(seedProducts);
 
+    const productsWithImages = seedProducts.map((product, index) => ({
+      ...product,
+      image: `/images/${index + 1}.PNG`,
+    }));
+
+    const inserted = await Product.insertMany(productsWithImages);
     res.json({
       message: 'Seeded successfully',
       count: inserted.length,
