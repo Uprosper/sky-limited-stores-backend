@@ -10,7 +10,7 @@ router.get('/', async (req, res) => {
     const filter = { active: true };
     if (category) filter.category = category;
     if (tag) filter.tag = tag;
-    const products = await Product.find(filter).sort({ createdAt: -1 });
+    const products = await Product.find(filter).sort({ createdAt: 1 });
     res.json({ products });
   } catch (err) {
     res.status(500).json({ error: 'Could not fetch products.' });
