@@ -25,7 +25,7 @@ async function sendBrevoEmail({ to, toName, subject, html }) {
     body: JSON.stringify({
       sender: {
         name: 'Sky Limited Stores',
-        email: process.env.BREVO_SENDER_EMAIL, // must be a verified sender in Brevo
+        email: process.env.BREVO_SENDER_EMAIL,
       },
       to: [{ email: to, name: toName }],
       subject,
@@ -94,6 +94,20 @@ router.post(
       if (!isMatch) {
         return res.status(401).json({ error: 'Invalid email or password.' });
       }
+
+      // ── Record this login in history ──────────────────────────────────
+      const ip =
+        req.headers['x-forwarded-for']?.split(',')[0].trim() ||
+        req.socket?.remoteAddress ||
+        '';
+      user.loginHistory.push({ timestamp: new Date(), ip });
+      // Keep only the last 50 logins so the array doesn't grow forever
+      if (user.loginHistory.length > 50) {
+        user.loginHistory = user.loginHistory.slice(-50);
+      }
+      await user.save();
+      // ─────────────────────────────────────────────────────────────────
+
       const token = signToken(user._id);
       res.json({ token, user });
     } catch (err) {
