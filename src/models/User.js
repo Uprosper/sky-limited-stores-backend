@@ -33,6 +33,13 @@ const userSchema = new mongoose.Schema(
       type: Date,
       default: null,
     },
+    // Tracks every time this user successfully logs in
+    loginHistory: [
+      {
+        timestamp: { type: Date, default: Date.now },
+        ip:        { type: String, default: '' },
+      },
+    ],
   },
   { timestamps: true }
 );
