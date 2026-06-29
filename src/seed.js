@@ -7,7 +7,7 @@ const products = [
   // ───── EARBUDS ─────
   {
     "name": "Bolizma Bluetooth Sleep Earbuds with LED Display Charging Case",
-    "price": 4999,
+    "price": 6999,
     "originalPrice": 44700,
     "category": "Earbuds",
     "tag": "popular",
@@ -16,7 +16,7 @@ const products = [
   },
   {
     "name": "itel Earbuds Wireless Bluetooth 5.3 Headphones with Deep Bass",
-    "price": 12000,
+    "price": 16800,
     "originalPrice": 12000,
     "category": "Earbuds",
     "tag": "new",
@@ -25,7 +25,7 @@ const products = [
   },
   {
     "name": "Bolizma Sleeping Earbuds Bluetooth 5.4 Earphones TWS",
-    "price": 7899,
+    "price": 11059,
     "originalPrice": 12960,
     "category": "Earbuds",
     "tag": "popular",
@@ -34,7 +34,7 @@ const products = [
   },
   {
     "name": "Bolizma Black Wireless Open Ear Earbuds with Bluetooth Air Clip",
-    "price": 10999,
+    "price": 15399,
     "originalPrice": 14700,
     "category": "Earbuds",
     "tag": "new",
@@ -43,7 +43,7 @@ const products = [
   },
   {
     "name": "Noise Hush ORAIMO Bluetooth Earphones Wireless Gaming",
-    "price": 28800,
+    "price": 40320,
     "originalPrice": 28800,
     "category": "Earbuds",
     "tag": "popular",
@@ -52,7 +52,7 @@ const products = [
   },
   {
     "name": "MingDe Era Wireless Earbuds with Noise Cancelling 30H",
-    "price": 8820,
+    "price": 12348,
     "originalPrice": 14700,
     "category": "Earbuds",
     "tag": "new",
@@ -61,7 +61,7 @@ const products = [
   },
   {
     "name": "Bolizma Wireless In-Ear Bluetooth Earbuds with Charging Case HiFi",
-    "price": 5999,
+    "price": 8399,
     "originalPrice": 10290,
     "category": "Earbuds",
     "tag": "popular",
@@ -70,7 +70,7 @@ const products = [
   },
   {
     "name": "Bolizma Wireless Earbuds Bluetooth 5.4 Open Ear",
-    "price": 8499,
+    "price": 11899,
     "originalPrice": 12870,
     "category": "Earbuds",
     "tag": "new",
@@ -79,7 +79,7 @@ const products = [
   },
   {
     "name": "VANIR Open Ear Bluetooth Earbuds with Earhooks 48H",
-    "price": 10800,
+    "price": 15120,
     "originalPrice": 72000,
     "category": "Earbuds",
     "tag": "popular",
@@ -88,7 +88,7 @@ const products = [
   },
   {
     "name": "Bolizma Wireless Earbuds with Digital Display Bluetooth 5.3",
-    "price": 7999,
+    "price": 11199,
     "originalPrice": 11760,
     "category": "Earbuds",
     "tag": "new",
@@ -97,7 +97,7 @@ const products = [
   },
   {
     "name": "Bolizma Sleeping Earbuds Bluetooth 5.4 Earphones TWS",
-    "price": 7899,
+    "price": 11059,
     "originalPrice": 12960,
     "category": "Earbuds",
     "tag": "popular",
@@ -106,7 +106,7 @@ const products = [
   },
   {
     "name": "Bolizma Wireless In-Ear Bluetooth Earbuds HiFi Charging Case",
-    "price": 5999,
+    "price": 8399,
     "originalPrice": 10290,
     "category": "Earbuds",
     "tag": "new",
@@ -117,7 +117,7 @@ const products = [
   // ───── POWER BANKS ─────
   {
     "name": "Oraimo Traveler 15 Power Bank 20000mAh 15W Type-C Fast Charging",
-    "price": 14501,
+    "price": 20301,
     "originalPrice": 27360,
     "category": "Power Banks",
     "tag": "popular",
@@ -126,7 +126,7 @@ const products = [
   },
   {
     "name": "SUNDASELF Portable Power Bank 20000mAh x2 Dual USB",
-    "price": 15840,
+    "price": 22176,
     "originalPrice": 28800,
     "category": "Power Banks",
     "tag": "new",
@@ -135,7 +135,7 @@ const products = [
   },
   {
     "name": "GDTINA 30000mAh 22.5W Super Fast Charging Power Bank",
-    "price": 14900,
+    "price": 20860,
     "originalPrice": 32000,
     "category": "Power Banks",
     "tag": "popular",
@@ -144,7 +144,7 @@ const products = [
   },
   {
     "name": "Philly 20000mAh Power Charging Bank Portable Charger Ultra Slim",
-    "price": 7636,
+    "price": 10690,
     "originalPrice": 12284,
     "category": "Power Banks",
     "tag": "new",
@@ -153,7 +153,7 @@ const products = [
   },
   {
     "name": "Philly 50000mAh 66W Super Fast Charge Power Bank",
-    "price": 25500,
+    "price": 35700,
     "originalPrice": 32820,
     "category": "Power Banks",
     "tag": "popular",
@@ -162,7 +162,7 @@ const products = [
   },
   {
     "name": "AVNEX 50000mAh Strong Durable Full Capacity Large Power Bank",
-    "price": 29458,
+    "price": 41241,
     "originalPrice": 40183,
     "category": "Power Banks",
     "tag": "new",
@@ -173,7 +173,7 @@ const products = [
   // ───── CLOTHING ─────
   {
     "name": "Jonnie Striped Black Baggy Track Pants",
-    "price": 13500,
+    "price": 18900,
     "originalPrice": 40000,
     "category": "Clothing",
     "tag": "popular",
@@ -182,7 +182,7 @@ const products = [
   },
   {
     "name": "Track Striped Baggy Trouser Black",
-    "price": 10799,
+    "price": 15119,
     "originalPrice": 30000,
     "category": "Clothing",
     "tag": "new",
@@ -191,7 +191,7 @@ const products = [
   },
   {
     "name": "UNLIMITED Baggy Track Joggers",
-    "price": 10350,
+    "price": 14490,
     "originalPrice": 10350,
     "category": "Clothing",
     "tag": "popular",
@@ -200,7 +200,7 @@ const products = [
   },
   {
     "name": "Asake Round Neck T-Shirt",
-    "price": 8550,
+    "price": 11970,
     "originalPrice": 20000,
     "category": "Clothing",
     "tag": "new",
@@ -209,7 +209,7 @@ const products = [
   },
   {
     "name": "GALUIN Men's Casual Short-Sleeve Set",
-    "price": 11520,
+    "price": 16128,
     "originalPrice": 24480,
     "category": "Clothing",
     "tag": "popular",
@@ -218,7 +218,7 @@ const products = [
   },
   {
     "name": "Berrykey Men's Pull Over Short Sleeve Polo Vintage Striped",
-    "price": 16170,
+    "price": 22638,
     "originalPrice": 32340,
     "category": "Clothing",
     "tag": "new",
@@ -227,7 +227,7 @@ const products = [
   },
   {
     "name": "Dou-color Men's 2-in-1 Racing Style Set",
-    "price": 8597,
+    "price": 12036,
     "originalPrice": 14300,
     "category": "Clothing",
     "tag": "popular",
@@ -236,7 +236,7 @@ const products = [
   },
   {
     "name": "Men's Trendy Multi Short Sleeve Shirt Sweatshirts",
-    "price": 7100,
+    "price": 9940,
     "originalPrice": 17640,
     "category": "Clothing",
     "tag": "new",
@@ -247,7 +247,7 @@ const products = [
   // ───── BAGS ─────
   {
     "name": "NAOT NAOT Plush Love Handbag Shoulder Bag Crossbody",
-    "price": 4047,
+    "price": 5666,
     "originalPrice": 9364,
     "category": "Bags",
     "tag": "popular",
@@ -256,7 +256,7 @@ const products = [
   },
   {
     "name": "addigoes Trendy Square Handbag For Women",
-    "price": 11998,
+    "price": 16797,
     "originalPrice": 26542,
     "category": "Bags",
     "tag": "new",
@@ -265,7 +265,7 @@ const products = [
   },
   {
     "name": "High Quality Padded Laptop Bag Laptop Pouch Case Sleeve",
-    "price": 8499,
+    "price": 11899,
     "originalPrice": 13000,
     "category": "Bags",
     "tag": "popular",
@@ -274,7 +274,7 @@ const products = [
   },
   {
     "name": "GALUIN Waterproof Anti-theft Men's Backpack For Laptop",
-    "price": 13680,
+    "price": 19152,
     "originalPrice": 23155,
     "category": "Bags",
     "tag": "new",
@@ -283,7 +283,7 @@ const products = [
   },
   {
     "name": "Men Sling Bag Pack With Lock Waterproof Anti-Theft Chest Bag",
-    "price": 9435,
+    "price": 13209,
     "originalPrice": 20569,
     "category": "Bags",
     "tag": "popular",
@@ -292,7 +292,7 @@ const products = [
   },
   {
     "name": "Single Laptop Table",
-    "price": 35000,
+    "price": 49000,
     "originalPrice": 35000,
     "category": "Bags",
     "tag": "new",
@@ -301,7 +301,7 @@ const products = [
   },
   {
     "name": "3 In 1 Multi Functional Backpack With USB Slot",
-    "price": 12326,
+    "price": 17256,
     "originalPrice": 21600,
     "category": "Bags",
     "tag": "popular",
@@ -310,7 +310,7 @@ const products = [
   },
   {
     "name": "3-in-1 Productivity Offer: Premium Felt Laptop Bag with Stands",
-    "price": 22999,
+    "price": 32199,
     "originalPrice": 30000,
     "category": "Bags",
     "tag": "new",
@@ -319,7 +319,7 @@ const products = [
   },
   {
     "name": "High Quality Waterproof Backpack Laptop Bag with Padded Laptop",
-    "price": 13085,
+    "price": 18319,
     "originalPrice": 20000,
     "category": "Bags",
     "tag": "popular",
@@ -330,7 +330,7 @@ const products = [
   // ───── GAMING ─────
   {
     "name": "GtyGo Wired Gaming Mouse 7 Functional Keys RGB Light",
-    "price": 3925,
+    "price": 5495,
     "originalPrice": 10800,
     "category": "Gaming",
     "tag": "popular",
@@ -339,7 +339,7 @@ const products = [
   },
   {
     "name": "Mechanical Keyboard 61-Key RGB Backlit Blue Switch Wired Gaming",
-    "price": 22000,
+    "price": 30800,
     "originalPrice": 27070,
     "category": "Gaming",
     "tag": "new",
@@ -348,7 +348,7 @@ const products = [
   },
   {
     "name": "Wired Luminescent Gaming Mouse/Mice Computer",
-    "price": 5466,
+    "price": 7652,
     "originalPrice": 11347,
     "category": "Gaming",
     "tag": "popular",
@@ -357,7 +357,7 @@ const products = [
   },
   {
     "name": "WIRELESS RGB Gaming Mouse DPI Ergonomic Mice PC",
-    "price": 12500,
+    "price": 17500,
     "originalPrice": 15900,
     "category": "Gaming",
     "tag": "new",
@@ -366,7 +366,7 @@ const products = [
   },
   {
     "name": "Best Controllers Game Pads USB For PC & Laptops Windows",
-    "price": 9800,
+    "price": 13720,
     "originalPrice": 12999,
     "category": "Gaming",
     "tag": "popular",
@@ -375,7 +375,7 @@ const products = [
   },
   {
     "name": "RGB Smart Wired Gaming Keyboard PC Laptop Gaming",
-    "price": 25000,
+    "price": 35000,
     "originalPrice": 70000,
     "category": "Gaming",
     "tag": "new",
@@ -384,7 +384,7 @@ const products = [
   },
   {
     "name": "8pcs Mobile Gaming Finger Sleeves Thumb Gloves For Mobile",
-    "price": 9990,
+    "price": 13986,
     "originalPrice": 20000,
     "category": "Gaming",
     "tag": "popular",
@@ -393,7 +393,7 @@ const products = [
   },
   {
     "name": "4 Pcs Gaming Finger Sleeves Game Gloves Thumb Finger Cots",
-    "price": 3150,
+    "price": 4410,
     "originalPrice": 5000,
     "category": "Gaming",
     "tag": "new",
@@ -402,7 +402,7 @@ const products = [
   },
   {
     "name": "Finger Thumb Mobile Gaming Sleeves",
-    "price": 3500,
+    "price": 4900,
     "originalPrice": 5000,
     "category": "Gaming",
     "tag": "popular",
@@ -411,7 +411,7 @@ const products = [
   },
   {
     "name": "Bluetooth Wireless Receiver Transmitter Audio Adapter",
-    "price": 8900,
+    "price": 12460,
     "originalPrice": 9000,
     "category": "Gaming",
     "tag": "new",
@@ -420,7 +420,7 @@ const products = [
   },
   {
     "name": "2IN1 Bluetooth Wireless Receiver Transmitter Audio Adapter",
-    "price": 8900,
+    "price": 12460,
     "originalPrice": 15900,
     "category": "Gaming",
     "tag": "popular",
@@ -429,7 +429,7 @@ const products = [
   },
   {
     "name": "Universal Wireless Bluetooth Receiver & Transmitter Audio",
-    "price": 8700,
+    "price": 12180,
     "originalPrice": 12900,
     "category": "Gaming",
     "tag": "new",
@@ -440,7 +440,7 @@ const products = [
   // ───── LIGHTERS ─────
   {
     "name": "Rechargeable Electric Arc Ignitor with USB Cord for Gas Stoves",
-    "price": 5400,
+    "price": 7560,
     "originalPrice": 5400,
     "category": "Lighters",
     "tag": "popular",
@@ -449,7 +449,7 @@ const products = [
   },
   {
     "name": "Rechargeable Electric Arc Ignitor Lifetime Warranty",
-    "price": 3700,
+    "price": 5180,
     "originalPrice": 3700,
     "category": "Lighters",
     "tag": "new",
@@ -458,7 +458,7 @@ const products = [
   },
   {
     "name": "Rechargeable Electric Arc Ignitor for Gas Stoves Colorful",
-    "price": 3690,
+    "price": 5166,
     "originalPrice": 3690,
     "category": "Lighters",
     "tag": "popular",
@@ -467,7 +467,7 @@ const products = [
   },
   {
     "name": "Rechargeable Electric Arc Ignitor for Gas Stoves Pink",
-    "price": 4999,
+    "price": 6999,
     "originalPrice": 4999,
     "category": "Lighters",
     "tag": "new",
@@ -478,7 +478,7 @@ const products = [
   // ───── WATCHES ─────
   {
     "name": "BINBOND Men's Watch Fashion Waterproof Sport Quartz Business",
-    "price": 8798,
+    "price": 12317,
     "originalPrice": 11635,
     "category": "Watches",
     "tag": "popular",
@@ -487,7 +487,7 @@ const products = [
   },
   {
     "name": "WABOOC Men's Luxury Stainless Steel Quartz Watch Luminous",
-    "price": 16978,
+    "price": 23769,
     "originalPrice": 31666,
     "category": "Watches",
     "tag": "new",
@@ -496,7 +496,7 @@ const products = [
   },
   {
     "name": "Glow-in-the-Dark Rhinestone LED Student Couple Quartz Watch",
-    "price": 5690,
+    "price": 7966,
     "originalPrice": 9223,
     "category": "Watches",
     "tag": "popular",
@@ -505,7 +505,7 @@ const products = [
   },
   {
     "name": "BINLIHUAN Men's Business Quartz Watch Luxury Skull Style",
-    "price": 11025,
+    "price": 15435,
     "originalPrice": 36750,
     "category": "Watches",
     "tag": "new",
