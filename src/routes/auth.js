@@ -95,18 +95,15 @@ router.post(
         return res.status(401).json({ error: 'Invalid email or password.' });
       }
 
-      // ── Record this login in history ──────────────────────────────────
       const ip =
         req.headers['x-forwarded-for']?.split(',')[0].trim() ||
         req.socket?.remoteAddress ||
         '';
       user.loginHistory.push({ timestamp: new Date(), ip });
-      // Keep only the last 50 logins so the array doesn't grow forever
       if (user.loginHistory.length > 50) {
         user.loginHistory = user.loginHistory.slice(-50);
       }
       await user.save();
-      // ─────────────────────────────────────────────────────────────────
 
       const token = signToken(user._id);
       res.json({ token, user });
@@ -145,7 +142,7 @@ router.post(
 
       const token = crypto.randomBytes(32).toString('hex');
       user.resetToken = token;
-      user.resetTokenExpiry = Date.now() + 60 * 60 * 1000; // 1 hour
+      user.resetTokenExpiry = Date.now() + 60 * 60 * 1000;
       await user.save();
 
       const resetUrl = `${process.env.FRONTEND_URL}/reset-password.html?token=${token}`;
@@ -167,11 +164,11 @@ router.post(
             <p>If you didn't request this, you can safely ignore this email.</p>
           `,
         });
+        res.json(genericResponse);
       } catch (emailErr) {
         console.error('Brevo email send error:', emailErr);
+        res.status(500).json({ error: 'Email send failed: ' + emailErr.message });
       }
-
-      res.json(genericResponse);
     } catch (err) {
       console.error('Forgot password error:', err);
       res.status(500).json({ error: 'Could not process request.' });
@@ -204,7 +201,7 @@ router.post(
         return res.status(400).json({ error: 'Reset link is invalid or has expired.' });
       }
 
-      user.password = password; // pre-save hook will hash it
+      user.password = password;
       user.resetToken = null;
       user.resetTokenExpiry = null;
       await user.save();
