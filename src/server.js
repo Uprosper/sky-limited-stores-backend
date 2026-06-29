@@ -16,6 +16,7 @@ const webhookRoutes = require('./routes/webhooks');
 const adminSeedRoute = require('./routes/admin');
 
 const app = express();
+app.set('trust proxy', 1);
 
 // --- Core middleware ---
 
