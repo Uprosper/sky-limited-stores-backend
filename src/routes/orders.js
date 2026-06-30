@@ -8,7 +8,7 @@ const { initializeTransaction, verifyTransaction } = require('../utils/paystack'
 
 const router = express.Router();
 
-// POST /api/orders — place a new order (logged-in users)
+// POST /api/orders — place a new order (logged-in, verified users only)
 router.post(
   '/',
   requireAuth,
@@ -20,6 +20,11 @@ router.post(
     const errors = validationResult(req);
     if (!errors.isEmpty()) {
       return res.status(400).json({ error: errors.array()[0].msg });
+    }
+
+    // Block unverified users from placing orders
+    if (!req.user.isVerified) {
+      return res.status(403).json({ error: 'Please verify your email before placing an order.' });
     }
 
     const { items, shippingAddress } = req.body;
