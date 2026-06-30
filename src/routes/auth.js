@@ -62,7 +62,42 @@ router.post(
       if (existingUser) {
         return res.status(409).json({ error: 'An account with this email already exists.' });
       }
-      const user = await User.create({ name, email, password });
+
+      const verifyToken = crypto.randomBytes(32).toString('hex');
+
+      const user = await User.create({
+        name,
+        email,
+        password,
+        verifyToken,
+        verifyTokenExpiry: Date.now() + 24 * 60 * 60 * 1000, // 24h
+      });
+
+      const verifyUrl = `${process.env.FRONTEND_URL}/verify-email.html?token=${verifyToken}`;
+
+      try {
+        await sendBrevoEmail({
+          to: user.email,
+          toName: user.name,
+          subject: 'Verify your Sky Limited Stores account',
+          html: `
+            <p>Hi ${user.name},</p>
+            <p>Thanks for signing up! Please verify your email address before you can place orders.</p>
+            <p style="margin: 24px 0;">
+              <a href="${verifyUrl}" style="background-color:#00ff9d; color:#0a0e27; padding:12px 28px; border-radius:6px; text-decoration:none; font-weight:bold; display:inline-block;">
+                Verify Email
+              </a>
+            </p>
+            <p>Or copy and paste this link into your browser:<br>${verifyUrl}</p>
+            <p>This link expires in 24 hours.</p>
+          `,
+        });
+      } catch (emailErr) {
+        // Don't block account creation if the email fails to send —
+        // the user can request a new verification email later.
+        console.error('Verification email send error:', emailErr);
+      }
+
       const token = signToken(user._id);
       res.status(201).json({ token, user });
     } catch (err) {
@@ -117,6 +152,70 @@ router.post(
 // --- GET /api/auth/me ---
 router.get('/me', requireAuth, async (req, res) => {
   res.json({ user: req.user });
+});
+
+// --- GET /api/auth/verify-email/:token ---
+router.get('/verify-email/:token', async (req, res) => {
+  try {
+    const user = await User.findOne({
+      verifyToken: req.params.token,
+      verifyTokenExpiry: { $gt: Date.now() },
+    });
+
+    if (!user) {
+      return res.status(400).json({ error: 'Verification link is invalid or has expired.' });
+    }
+
+    user.isVerified = true;
+    user.verifyToken = null;
+    user.verifyTokenExpiry = null;
+    await user.save();
+
+    res.json({ message: 'Email verified successfully. You can now place orders.' });
+  } catch (err) {
+    console.error('Verify email error:', err);
+    res.status(500).json({ error: 'Could not verify email.' });
+  }
+});
+
+// --- POST /api/auth/resend-verification ---
+router.post('/resend-verification', requireAuth, async (req, res) => {
+  try {
+    const user = req.user;
+
+    if (user.isVerified) {
+      return res.json({ message: 'Your email is already verified.' });
+    }
+
+    const verifyToken = crypto.randomBytes(32).toString('hex');
+    user.verifyToken = verifyToken;
+    user.verifyTokenExpiry = Date.now() + 24 * 60 * 60 * 1000;
+    await user.save();
+
+    const verifyUrl = `${process.env.FRONTEND_URL}/verify-email.html?token=${verifyToken}`;
+
+    await sendBrevoEmail({
+      to: user.email,
+      toName: user.name,
+      subject: 'Verify your Sky Limited Stores account',
+      html: `
+        <p>Hi ${user.name},</p>
+        <p>Click the button below to verify your email address.</p>
+        <p style="margin: 24px 0;">
+          <a href="${verifyUrl}" style="background-color:#00ff9d; color:#0a0e27; padding:12px 28px; border-radius:6px; text-decoration:none; font-weight:bold; display:inline-block;">
+            Verify Email
+          </a>
+        </p>
+        <p>Or copy and paste this link into your browser:<br>${verifyUrl}</p>
+        <p>This link expires in 24 hours.</p>
+      `,
+    });
+
+    res.json({ message: 'Verification email resent. Please check your inbox.' });
+  } catch (err) {
+    console.error('Resend verification error:', err);
+    res.status(500).json({ error: 'Could not resend verification email.' });
+  }
 });
 
 // --- POST /api/auth/forgot-password ---
