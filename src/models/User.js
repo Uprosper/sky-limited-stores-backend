@@ -1,6 +1,5 @@
 const mongoose = require('mongoose');
 const bcrypt = require('bcryptjs');
-
 const userSchema = new mongoose.Schema(
   {
     name: {
@@ -25,6 +24,18 @@ const userSchema = new mongoose.Schema(
       enum: ['customer', 'admin'],
       default: 'customer',
     },
+    isVerified: {
+      type: Boolean,
+      default: false,
+    },
+    verifyToken: {
+      type: String,
+      default: null,
+    },
+    verifyTokenExpiry: {
+      type: Date,
+      default: null,
+    },
     resetToken: {
       type: String,
       default: null,
@@ -43,7 +54,6 @@ const userSchema = new mongoose.Schema(
   },
   { timestamps: true }
 );
-
 // Hash password before saving, only if it was changed
 userSchema.pre('save', async function (next) {
   if (!this.isModified('password')) return next();
@@ -51,19 +61,18 @@ userSchema.pre('save', async function (next) {
   this.password = await bcrypt.hash(this.password, salt);
   next();
 });
-
 // Instance method to compare a plaintext password to the stored hash
 userSchema.methods.comparePassword = function (candidatePassword) {
   return bcrypt.compare(candidatePassword, this.password);
 };
-
-// Never send the password hash or reset token back in API responses
+// Never send the password hash or sensitive tokens back in API responses
 userSchema.methods.toJSON = function () {
   const obj = this.toObject();
   delete obj.password;
   delete obj.resetToken;
   delete obj.resetTokenExpiry;
+  delete obj.verifyToken;
+  delete obj.verifyTokenExpiry;
   return obj;
 };
-
 module.exports = mongoose.model('User', userSchema);
