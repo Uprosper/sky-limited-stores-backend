@@ -37,8 +37,11 @@ router.post(
       for (const item of items) {
         const product = await Product.findById(item.productId);
 
-        if (!product || !product.active) {
-          return res.status(400).json({ error: `Product ${item.productId} is unavailable.` });
+       if (!product || !product.active) {
+          return res.status(400).json({
+            error: `"${item.name || 'An item'}" is no longer available and has been removed from your cart. Please try again.`,
+            invalidProductId: item.productId,
+          });
         }
 
         const quantity = Math.max(1, parseInt(item.quantity, 10) || 1);
