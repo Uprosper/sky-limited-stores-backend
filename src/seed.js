@@ -8,7 +8,7 @@ const products = [
   {
     "name": "Bolizma Bluetooth Sleep Earbuds with LED Display Charging Case",
     "price": 9799,
-    "oldPrice": 62580,
+    "oldPrice": 13500,
     "category": "Earbuds",
     "tag": "Hot",
     "image": "/images/2.PNG",
@@ -16,8 +16,8 @@ const products = [
   },
   {
     "name": "itel Earbuds Wireless Bluetooth 5.3 Headphones with Deep Bass",
-    "price": 23520,
-    "oldPrice": 16800,
+    "price": 16800,
+    "oldPrice": 20000,
     "category": "Earbuds",
     "tag": "New",
     "image": "/images/2_2.PNG",
@@ -34,8 +34,8 @@ const products = [
   },
   {
     "name": "Bolizma Black Wireless Open Ear Earbuds with Bluetooth Air Clip",
-    "price": 21559,
-    "oldPrice": 20580,
+    "price": 20000,
+    "oldPrice": 25000,
     "category": "Earbuds",
     "tag": "New",
     "image": "/images/2_4.PNG",
@@ -80,7 +80,7 @@ const products = [
   {
     "name": "VANIR Open Ear Bluetooth Earbuds with Earhooks 48H",
     "price": 21168,
-    "oldPrice": 100800,
+    "oldPrice": 30080,
     "category": "Earbuds",
     "tag": "Hot",
     "image": "/images/Capture_1.PNG",
@@ -113,7 +113,43 @@ const products = [
     "image": "/images/Capture_4.PNG",
     "description": "HiFi in-ear Bluetooth earbuds with fast-charge case and crystal-clear audio."
   },
-
+  {
+    "name": "Type-C Audio Adapter",
+    "price": 10800,
+    "oldPrice": 15000,
+    "category": "Earbuds",
+    "tag": "New",
+    "image": "/images/2_5",
+    "description": "Sound Quality Type-C Audio Adapter"
+  },
+  {
+    "name": "P47M Cat Ear Bluetooth Headphones",
+    "price": 11500,
+    "oldPrice": 16006,
+    "category": "Earbuds",
+    "tag": "New",
+    "image": "/images/2_6",
+    "description": "Wireless P47M Cat Ear Bluetooth Headphone"
+  },
+  {
+    "name": "P47M Wireless Bluetooth Headphones",
+    "price": 14679,
+    "oldPrice": 20406,
+    "category": "Earbuds",
+    "tag": "New",
+    "image": "/images/2_7",
+    "description": "Wireless Bluetooth Headphone with Sound Quality"
+  },
+  {
+    "name": "M90 Pro Bluetooth Earbuds",
+    "price": 15000,
+    "oldPrice": 13000,
+    "category": "Earbuds",
+    "tag": "New",
+    "image": "/images/2_8",
+    "description": "Quality Pro Bluetooth Earbuds"
+  },
+   
   // ───── POWER BANKS ─────
   {
     "name": "Oraimo Traveler 15 Power Bank 20000mAh 15W Type-C Fast Charging",
@@ -173,8 +209,8 @@ const products = [
   // ───── CLOTHING ─────
   {
     "name": "Jonnie Striped Black Baggy Track Pants",
-    "price": 26460,
-    "oldPrice": 56000,
+    "price": 18900,
+    "oldPrice": 26000,
     "category": "Clothing",
     "tag": "Hot",
     "image": "/images/4.PNG",
@@ -182,8 +218,8 @@ const products = [
   },
   {
     "name": "Track Striped Baggy Trouser Black",
-    "price": 21167,
-    "oldPrice": 42000,
+    "price": 15119,
+    "oldPrice": 30000,
     "category": "Clothing",
     "tag": "New",
     "image": "/images/4_2.PNG",
@@ -191,8 +227,8 @@ const products = [
   },
   {
     "name": "UNLIMITED Baggy Track Joggers",
-    "price": 20286,
-    "oldPrice": 14490,
+    "price": 14490,
+    "oldPrice": 20890,
     "category": "Clothing",
     "tag": "Hot",
     "image": "/images/4_3.PNG",
@@ -200,8 +236,8 @@ const products = [
   },
   {
     "name": "Asake Round Neck T-Shirt",
-    "price": 16758,
-    "oldPrice": 28000,
+    "price": 11970,
+    "oldPrice": 20000,
     "category": "Clothing",
     "tag": "New",
     "image": "/images/4_4.PNG",
@@ -209,8 +245,8 @@ const products = [
   },
   {
     "name": "GALUIN Men's Casual Short-Sleeve Set",
-    "price": 22579,
-    "oldPrice": 34272,
+    "price": 16128,
+    "oldPrice": 24480,
     "category": "Clothing",
     "tag": "Hot",
     "image": "/images/4_1.PNG",
@@ -218,8 +254,8 @@ const products = [
   },
   {
     "name": "Berrykey Men's Pull Over Short Sleeve Polo Vintage Striped",
-    "price": 31693,
-    "oldPrice": 45276,
+    "price": 22638,
+    "oldPrice": 32340,
     "category": "Clothing",
     "tag": "New",
     "image": "/images/4_1_2.PNG",
@@ -227,8 +263,8 @@ const products = [
   },
   {
     "name": "Dou-color Men's 2-in-1 Racing Style Set",
-    "price": 16850,
-    "oldPrice": 20020,
+    "price": 12036,
+    "oldPrice": 14300,
     "category": "Clothing",
     "tag": "Hot",
     "image": "/images/4_1_3.PNG",
@@ -236,12 +272,48 @@ const products = [
   },
   {
     "name": "Men's Trendy Multi Short Sleeve Shirt Sweatshirts",
-    "price": 13916,
-    "oldPrice": 24696,
+    "price": 9940,
+    "oldPrice": 17640,
     "category": "Clothing",
     "tag": "New",
     "image": "/images/4_1_4.PNG",
     "description": "Multi-print short sleeve sweatshirt with vibrant African-inspired graphic design."
+  },
+  {
+    "name": "Dinosaur Graphic T-Shirt",
+    "price": 8120,
+    "oldPrice": 10440,
+    "category": "Clothing",
+    "tag": "New",
+    "image": "/images/4_10.PNG",
+    "description": "T-shirt with Dinosaur inspired from children's image."
+  },
+  {
+    "name": "T-Rex Graphic T-Shirt",
+    "price": 8000,
+    "oldPrice": 9800,
+    "category": "Clothing",
+    "tag": "New",
+    "image": "/images/4_11.PNG",
+    "description": "T-shirt with Dinosaur inspired from children's image."
+  },
+  {
+    "name": "Fashion House Graphic Tee",
+    "price": 8000,
+    "oldPrice": 9800,
+    "category": "Clothing",
+    "tag": "New",
+    "image": "/images/4_12.PNG",
+    "description": "Fashion model T-Shirt"
+  },
+  {
+    "name": "Plain Unisex T-Shirt",
+    "price": 12000,
+    "oldPrice": 14740,
+    "category": "Clothing",
+    "tag": "New",
+    "image": "/images/4_11.PNG",
+    "description": "Unisex T-Shirt."
   },
 
   // ───── BAGS ─────
@@ -511,6 +583,248 @@ const products = [
     "tag": "New",
     "image": "/images/5_1_3.PNG",
     "description": "Punk-style luxury skull quartz watch with genuine leather strap for men."
+  },
+
+  // ───── SMARTWATCHES ─────
+  {
+    "name": "Smart Sports Watch with Heart Rate Monitor",
+    "price": 13000,
+    "oldPrice": 8125,
+    "category": "Smartwatches",
+    "tag": "Hot",
+    "image": "/images/8_4.PNG",
+    "description": "Advanced smartwatch with heart rate monitoring, fitness tracking, and blood pressure sensor."
+  },
+  {
+    "name": "Premium Smartwatch Case Protector - Rose Gold",
+    "price": 5600,
+    "oldPrice": 3500,
+    "category": "Smartwatches",
+    "tag": "New",
+    "image": "/images/8_5.PNG",
+    "description": "Durable protective case for smartwatch in elegant rose gold finish with screen guard."
+  },
+  {
+    "name": "Premium Smartwatch Case Protector - Silver",
+    "price": 5600,
+    "oldPrice": 3500,
+    "category": "Smartwatches",
+    "tag": "Hot",
+    "image": "/images/8_6.PNG",
+    "description": "Premium protective case for smartwatch in silver with tempered glass screen protector."
+  },
+  {
+    "name": "Fitness Smartwatch with LED Display",
+    "price": 12800,
+    "oldPrice": 8000,
+    "category": "Smartwatches",
+    "tag": "New",
+    "image": "/images/8_7.PNG",
+    "description": "Feature-rich fitness smartwatch with LED display, multi-sport modes, and health tracking."
+  },
+  {
+    "name": "Rugged Smartwatch with Interchangeable Band",
+    "price": 16000,
+    "oldPrice": 10000,
+    "category": "Smartwatches",
+    "tag": "Hot",
+    "image": "/images/8_8.PNG",
+    "description": "Durable rugged smartwatch with interchangeable yellow band and outdoor features."
+  },
+  {
+    "name": "Compact Smartwatch with Health Monitoring",
+    "price": 11200,
+    "oldPrice": 7000,
+    "category": "Smartwatches",
+    "tag": "New",
+    "image": "/images/8_9.PNG",
+    "description": "Lightweight compact smartwatch with comprehensive health monitoring and fitness tracking."
+  },
+  {
+    "name": "Smartwatch with Stylish Pink Band",
+    "price": 9920,
+    "oldPrice": 6200,
+    "category": "Smartwatches",
+    "tag": "Hot",
+    "image": "/images/8_10.PNG",
+    "description": "Elegant smartwatch with pink band, -35% discount on health monitoring features."
+  },
+  {
+    "name": "Smartwatch with Gray Band and LED Display",
+    "price": 10560,
+    "oldPrice": 6600,
+    "category": "Smartwatches",
+    "tag": "New",
+    "image": "/images/8_11.PNG",
+    "description": "Modern smartwatch with gray band, LED display, and comprehensive fitness tracking features."
+  },
+
+  // ───── 5G ROUTERS & BOOSTERS ─────
+  {
+    "name": "5G WiFi Router with High Speed Connectivity",
+    "price": 35200,
+    "oldPrice": 22000,
+    "category": "Routers",
+    "tag": "Hot",
+    "image": "/images/9.PNG",
+    "description": "Advanced 5G WiFi router for fast and stable internet connectivity throughout your space."
+  },
+  {
+    "name": "MTN 5G Router - Premium Model",
+    "price": 17920,
+    "oldPrice": 11200,
+    "category": "Routers",
+    "tag": "New",
+    "image": "/images/9_1.PNG",
+    "description": "MTN official 5G router with 100gb data bundle and premium connectivity features."
+  },
+  {
+    "name": "MTN 5G Booster - Enhanced Coverage",
+    "price": 15680,
+    "oldPrice": 9800,
+    "category": "Routers",
+    "tag": "Hot",
+    "image": "/images/9_2.PNG",
+    "description": "MTN 5G signal booster with -12% discount for extended network coverage."
+  },
+  {
+    "name": "MTN 5G Signal Enhancer",
+    "price": 14720,
+    "oldPrice": 9200,
+    "category": "Routers",
+    "tag": "New",
+    "image": "/images/9_3.PNG",
+    "description": "Compact MTN 5G signal enhancer with -5% discount for optimal network performance."
+  },
+
+  // ───── PC GAMES ─────
+  {
+    "name": "BLUR Racing PC Game",
+    "price": 14400,
+    "oldPrice": 9000,
+    "category": "PC Games",
+    "tag": "Hot",
+    "image": "/images/10_1.PNG",
+    "description": "Intense arcade racing game with explosive power-ups and wheel-to-wheel combat."
+  },
+  {
+    "name": "Call of Duty: Modern Warfare PC Game",
+    "price": 14400,
+    "oldPrice": 9000,
+    "category": "PC Games",
+    "tag": "New",
+    "image": "/images/10_2.PNG",
+    "description": "Modern Warfare edition with immersive campaign and multiplayer action on PC."
+  },
+  {
+    "name": "Call of Duty: Day Zero Edition PC Game",
+    "price": 14400,
+    "oldPrice": 9000,
+    "category": "PC Games",
+    "tag": "Hot",
+    "image": "/images/10_3.PNG",
+    "description": "Exclusive Day Zero Edition of Call of Duty with premium early access content."
+  },
+  {
+    "name": "Call of Duty: Black Ops PC Game",
+    "price": 14400,
+    "oldPrice": 9000,
+    "category": "PC Games",
+    "tag": "New",
+    "image": "/images/10_4.PNG",
+    "description": "Black Ops series with intense action, rated 18+ for mature audiences on PC."
+  },
+  {
+    "name": "PES 2023 Football Life PC Game",
+    "price": 19200,
+    "oldPrice": 12000,
+    "category": "PC Games",
+    "tag": "Hot",
+    "image": "/images/10_5.PNG",
+    "description": "Pro Evolution Soccer 2023 with updated rosters and realistic football gameplay."
+  },
+  {
+    "name": "GTA V - Grand Theft Auto PC Game",
+    "price": 23712,
+    "oldPrice": 14820,
+    "category": "PC Games",
+    "tag": "Hot",
+    "image": "/images/10.PNG",
+    "description": "Grand Theft Auto V - Epic open-world action game for PC with unmatched gameplay."
+  },
+
+  // ───── BEAUTY & COSMETICS ─────
+  {
+    "name": "Premium Cosmetics Storage Organizer 4-Tier",
+    "price": 19200,
+    "oldPrice": 12000,
+    "category": "Beauty",
+    "tag": "Hot",
+    "image": "/images/11.PNG",
+    "description": "Multi-compartment cosmetics organizer with 4 tiers, -50% discount on storage solutions."
+  },
+  {
+    "name": "Hair Treatment Mask - Orange Label",
+    "price": 11840,
+    "oldPrice": 7400,
+    "category": "Beauty",
+    "tag": "New",
+    "image": "/images/11_1.PNG",
+    "description": "Professional hair treatment mask with deep conditioning formula, -25% discount available."
+  },
+  {
+    "name": "Cosmetics Storage Box with Drawer",
+    "price": 19200,
+    "oldPrice": 12000,
+    "category": "Beauty",
+    "tag": "Hot",
+    "image": "/images/11_2.PNG",
+    "description": "Elegant white cosmetics storage organizer with pull-out drawer, -50% off selected items."
+  },
+  {
+    "name": "Hair Growth Serum Premium Formula",
+    "price": 9120,
+    "oldPrice": 5700,
+    "category": "Beauty",
+    "tag": "New",
+    "image": "/images/11_3.PNG",
+    "description": "Advanced hair growth serum with natural ingredients for stronger, healthier hair."
+  },
+  {
+    "name": "False Eyelashes Set - 10 Pairs",
+    "price": 6480,
+    "oldPrice": 4050,
+    "category": "Beauty",
+    "tag": "Hot",
+    "image": "/images/11_4.PNG",
+    "description": "Professional false eyelashes bundle with 10 pairs, -8% discount on bulk purchases."
+  },
+  {
+    "name": "24K Gold Face Cream - GUAN JING",
+    "price": 11200,
+    "oldPrice": 7000,
+    "category": "Beauty",
+    "tag": "New",
+    "image": "/images/11_6.PNG",
+    "description": "Luxury 24K gold infused face cream for radiant skin, -31% discount this month."
+  },
+  {
+    "name": "Premium Face Moisturizer Cream",
+    "price": 8960,
+    "oldPrice": 5600,
+    "category": "Beauty",
+    "tag": "Hot",
+    "image": "/images/11_5.PNG",
+    "description": "Hydrating facial cream with natural moisturizers for smooth, glowing skin."
+  },
+  {
+    "name": "Portable Cosmetics Travel Bag - Blue Pattern",
+    "price": 11520,
+    "oldPrice": 7200,
+    "category": "Beauty",
+    "tag": "New",
+    "image": "/images/11_7.PNG",
+    "description": "Stylish blue patterned travel cosmetics bag with multiple compartments for organized beauty storage."
   }
 ];
 
