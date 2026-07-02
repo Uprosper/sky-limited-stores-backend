@@ -119,7 +119,7 @@ const products = [
     "oldPrice": 15000,
     "category": "Earbuds",
     "tag": "New",
-    "image": "/images/2_5",
+    "image": "/images/2_5.PNG",
     "description": "Sound Quality Type-C Audio Adapter"
   },
   {
@@ -128,7 +128,7 @@ const products = [
     "oldPrice": 16006,
     "category": "Earbuds",
     "tag": "New",
-    "image": "/images/2_6",
+    "image": "/images/2_6.PNG",
     "description": "Wireless P47M Cat Ear Bluetooth Headphone"
   },
   {
@@ -137,7 +137,7 @@ const products = [
     "oldPrice": 20406,
     "category": "Earbuds",
     "tag": "New",
-    "image": "/images/2_7",
+    "image": "/images/2_7.PNG",
     "description": "Wireless Bluetooth Headphone with Sound Quality"
   },
   {
@@ -146,7 +146,7 @@ const products = [
     "oldPrice": 13000,
     "category": "Earbuds",
     "tag": "New",
-    "image": "/images/2_8",
+    "image": "/images/2_8.PNG",
     "description": "Quality Pro Bluetooth Earbuds"
   },
    
