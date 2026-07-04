@@ -1,14 +1,10 @@
 'use strict';
-require('dotenv').config();
-const mongoose = require('mongoose');
-const Product = mongoose.models.Product || require('./models/Product');
 
 const products = [
-  // ───── EARBUDS ─────
-  {
+{
     "name": "Bolizma Bluetooth Sleep Earbuds with LED Display Charging Case",
-    "price": 5879,
-    "oldPrice": 8100,
+    "price": 6000,
+    "oldPrice": 8548,
     "category": "Earbuds",
     "tag": "Hot",
     "image": "/images/2.PNG",
@@ -16,8 +12,8 @@ const products = [
   },
   {
     "name": "itel Earbuds Wireless Bluetooth 5.3 Headphones with Deep Bass",
-    "price": 10080,
-    "oldPrice": 12000,
+    "price": 14500,
+    "oldPrice": 20000,
     "category": "Earbuds",
     "tag": "New",
     "image": "/images/2_2.PNG",
@@ -34,8 +30,8 @@ const products = [
   },
   {
     "name": "Bolizma Black Wireless Open Ear Earbuds with Bluetooth Air Clip",
-    "price": 12000,
-    "oldPrice": 15000,
+    "price": 11400,
+    "oldPrice": 12348,
     "category": "Earbuds",
     "tag": "New",
     "image": "/images/2_4.PNG",
@@ -44,7 +40,7 @@ const products = [
   {
     "name": "Noise Hush ORAIMO Bluetooth Earphones Wireless Gaming",
     "price": 33869,
-    "oldPrice": 24192,
+    "oldPrice": 36000,
     "category": "Earbuds",
     "tag": "Hot",
     "image": "/images/3_10.PNG",
@@ -80,7 +76,7 @@ const products = [
   {
     "name": "VANIR Open Ear Bluetooth Earbuds with Earhooks 48H",
     "price": 12701,
-    "oldPrice": 18048,
+    "oldPrice": 20480,
     "category": "Earbuds",
     "tag": "Hot",
     "image": "/images/Capture_1.PNG",
@@ -94,15 +90,6 @@ const products = [
     "tag": "New",
     "image": "/images/Capture_2.PNG",
     "description": "Bluetooth 5.3 wireless earbuds with digital display and premium sound quality."
-  },
-  {
-    "name": "Bolizma Sleeping Earbuds Bluetooth 5.4 Earphones TWS",
-    "price": 9290,
-    "oldPrice": 10886,
-    "category": "Earbuds",
-    "tag": "Hot",
-    "image": "/images/Capture_3.PNG",
-    "description": "TWS sleeping earbuds with Bluetooth 5.4 and ultra-comfortable low-profile design."
   },
   {
     "name": "Bolizma Wireless In-Ear Bluetooth Earbuds HiFi Charging Case",
@@ -149,7 +136,6 @@ const products = [
     "image": "/images/2_8.PNG",
     "description": "Quality Pro Bluetooth Earbuds"
   },
-
   // ───── POWER BANKS ─────
   {
     "name": "Oraimo Traveler 15 Power Bank 20000mAh 15W Type-C Fast Charging",
@@ -241,12 +227,11 @@ const products = [
     "image": "/images/canyon_powerbank.PNG",
     "description": "Canyon portable power bank with a durable white finish, ideal for daily commutes and travel."
   },
-
   // ───── CLOTHING ─────
   {
     "name": "Jonnie Striped Black Baggy Track Pants",
-    "price": 11340,
-    "oldPrice": 15600,
+    "price": 15876,
+    "oldPrice": 33600,
     "category": "Clothing",
     "tag": "Hot",
     "image": "/images/4.PNG",
@@ -254,8 +239,8 @@ const products = [
   },
   {
     "name": "Track Striped Baggy Trouser Black",
-    "price": 9071,
-    "oldPrice": 18000,
+    "price": 12700,
+    "oldPrice": 25200,
     "category": "Clothing",
     "tag": "New",
     "image": "/images/4_2.PNG",
@@ -263,8 +248,8 @@ const products = [
   },
   {
     "name": "UNLIMITED Baggy Track Joggers",
-    "price": 8694,
-    "oldPrice": 12534,
+    "price": 12172,
+    "oldPrice": 8694,
     "category": "Clothing",
     "tag": "Hot",
     "image": "/images/4_3.PNG",
@@ -272,8 +257,8 @@ const products = [
   },
   {
     "name": "Asake Round Neck T-Shirt",
-    "price": 7182,
-    "oldPrice": 12000,
+    "price": 10055,
+    "oldPrice": 16800,
     "category": "Clothing",
     "tag": "New",
     "image": "/images/4_4.PNG",
@@ -281,8 +266,8 @@ const products = [
   },
   {
     "name": "GALUIN Men's Casual Short-Sleeve Set",
-    "price": 9677,
-    "oldPrice": 14688,
+    "price": 13547,
+    "oldPrice": 20563,
     "category": "Clothing",
     "tag": "Hot",
     "image": "/images/4_1.PNG",
@@ -290,8 +275,8 @@ const products = [
   },
   {
     "name": "Berrykey Men's Pull Over Short Sleeve Polo Vintage Striped",
-    "price": 13583,
-    "oldPrice": 19404,
+    "price": 19016,
+    "oldPrice": 27166,
     "category": "Clothing",
     "tag": "New",
     "image": "/images/4_1_2.PNG",
@@ -299,8 +284,8 @@ const products = [
   },
   {
     "name": "Dou-color Men's 2-in-1 Racing Style Set",
-    "price": 7222,
-    "oldPrice": 8580,
+    "price": 10110,
+    "oldPrice": 12012,
     "category": "Clothing",
     "tag": "Hot",
     "image": "/images/4_1_3.PNG",
@@ -308,8 +293,8 @@ const products = [
   },
   {
     "name": "Men's Trendy Multi Short Sleeve Shirt Sweatshirts",
-    "price": 5964,
-    "oldPrice": 10584,
+    "price": 8350,
+    "oldPrice": 14818,
     "category": "Clothing",
     "tag": "New",
     "image": "/images/4_1_4.PNG",
@@ -351,7 +336,6 @@ const products = [
     "image": "/images/4_11.PNG",
     "description": "Unisex T-Shirt."
   },
-
   // ───── BAGS ─────
   {
     "name": "NAOT NAOT Plush Love Handbag Shoulder Bag Crossbody",
@@ -434,7 +418,6 @@ const products = [
     "image": "/images/5_2_2.PNG",
     "description": "Waterproof padded laptop backpack with multiple compartments and sleek design."
   },
-
   // ───── GAMING ─────
   {
     "name": "GtyGo Wired Gaming Mouse 7 Functional Keys RGB Light",
@@ -562,7 +545,6 @@ const products = [
     "image": "/images/ps3_dualshock.PNG",
     "description": "Wireless Sony PS3 Dual Shock 3 controller in white with SIXAXIS motion sensing and rechargeable battery."
   },
-
   // ───── LIGHTERS ─────
   {
     "name": "Rechargeable Electric Arc Ignitor with USB Cord for Gas Stoves",
@@ -600,7 +582,6 @@ const products = [
     "image": "/images/4_5_4.PNG",
     "description": "Pink rechargeable electric arc ignitor with long neck for safe and easy lighting."
   },
-
   // ───── WATCHES ─────
   {
     "name": "BINBOND Men's Watch Fashion Waterproof Sport Quartz Business",
@@ -638,12 +619,11 @@ const products = [
     "image": "/images/5_1_3.PNG",
     "description": "Punk-style luxury skull quartz watch with genuine leather strap for men."
   },
-
   // ───── SMARTWATCHES ─────
   {
     "name": "Smart Sports Watch with Heart Rate Monitor",
-    "price": 7800,
-    "oldPrice": 4875,
+    "price": 4875,
+    "oldPrice": 7800,
     "category": "Smartwatches",
     "tag": "Hot",
     "image": "/images/8_4.PNG",
@@ -651,8 +631,8 @@ const products = [
   },
   {
     "name": "Premium Smartwatch Case Protector - Rose Gold",
-    "price": 3360,
-    "oldPrice": 2100,
+    "price": 2100,
+    "oldPrice": 3360,
     "category": "Smartwatches",
     "tag": "New",
     "image": "/images/8_5.PNG",
@@ -660,8 +640,8 @@ const products = [
   },
   {
     "name": "Premium Smartwatch Case Protector - Silver",
-    "price": 3360,
-    "oldPrice": 2100,
+    "price": 2100,
+    "oldPrice": 3360,
     "category": "Smartwatches",
     "tag": "Hot",
     "image": "/images/8_6.PNG",
@@ -669,8 +649,8 @@ const products = [
   },
   {
     "name": "Fitness Smartwatch with LED Display",
-    "price": 7680,
-    "oldPrice": 4800,
+    "price": 4800,
+    "oldPrice": 7680,
     "category": "Smartwatches",
     "tag": "New",
     "image": "/images/8_7.PNG",
@@ -678,8 +658,8 @@ const products = [
   },
   {
     "name": "Rugged Smartwatch with Interchangeable Band",
-    "price": 9600,
-    "oldPrice": 6000,
+    "price": 6000,
+    "oldPrice": 9600,
     "category": "Smartwatches",
     "tag": "Hot",
     "image": "/images/8_8.PNG",
@@ -687,8 +667,8 @@ const products = [
   },
   {
     "name": "Compact Smartwatch with Health Monitoring",
-    "price": 6720,
-    "oldPrice": 4200,
+    "price": 4200,
+    "oldPrice": 6720,
     "category": "Smartwatches",
     "tag": "New",
     "image": "/images/8_9.PNG",
@@ -696,8 +676,8 @@ const products = [
   },
   {
     "name": "Smartwatch with Stylish Pink Band",
-    "price": 5952,
-    "oldPrice": 3720,
+    "price": 3720,
+    "oldPrice": 5952,
     "category": "Smartwatches",
     "tag": "Hot",
     "image": "/images/8_10.PNG",
@@ -705,19 +685,18 @@ const products = [
   },
   {
     "name": "Smartwatch with Gray Band and LED Display",
-    "price": 6336,
-    "oldPrice": 3960,
+    "price": 3960,
+    "oldPrice": 6336,
     "category": "Smartwatches",
     "tag": "New",
     "image": "/images/8_11.PNG",
     "description": "Modern smartwatch with gray band, LED display, and comprehensive fitness tracking features."
   },
-
   // ───── ROUTERS ─────
   {
     "name": "5G WiFi Router with High Speed Connectivity",
-    "price": 21120,
-    "oldPrice": 13200,
+    "price": 13200,
+    "oldPrice": 21120,
     "category": "Routers",
     "tag": "Hot",
     "image": "/images/9.PNG",
@@ -725,8 +704,8 @@ const products = [
   },
   {
     "name": "MTN 5G Router - Premium Model",
-    "price": 10752,
-    "oldPrice": 6720,
+    "price": 6720,
+    "oldPrice": 10752,
     "category": "Routers",
     "tag": "New",
     "image": "/images/9_1.PNG",
@@ -734,8 +713,8 @@ const products = [
   },
   {
     "name": "MTN 5G Booster - Enhanced Coverage",
-    "price": 9408,
-    "oldPrice": 5880,
+    "price": 5880,
+    "oldPrice": 9408,
     "category": "Routers",
     "tag": "Hot",
     "image": "/images/9_2.PNG",
@@ -743,8 +722,8 @@ const products = [
   },
   {
     "name": "MTN 5G Signal Enhancer",
-    "price": 8832,
-    "oldPrice": 5520,
+    "price": 5520,
+    "oldPrice": 8832,
     "category": "Routers",
     "tag": "New",
     "image": "/images/9_3.PNG",
@@ -849,12 +828,11 @@ const products = [
     "image": "/images/4g_mifi_dongle.PNG",
     "description": "Compact 4G LTE wireless USB dongle providing instant mobile broadband for any network SIM."
   },
-
   // ───── PC GAMES ─────
   {
     "name": "BLUR Racing PC Game",
-    "price": 8640,
-    "oldPrice": 5400,
+    "price": 5400,
+    "oldPrice": 8640,
     "category": "PC Games",
     "tag": "Hot",
     "image": "/images/10_1.PNG",
@@ -862,8 +840,8 @@ const products = [
   },
   {
     "name": "Call of Duty: Modern Warfare PC Game",
-    "price": 8640,
-    "oldPrice": 5400,
+    "price": 5400,
+    "oldPrice": 8640,
     "category": "PC Games",
     "tag": "New",
     "image": "/images/10_2.PNG",
@@ -871,8 +849,8 @@ const products = [
   },
   {
     "name": "Call of Duty: Day Zero Edition PC Game",
-    "price": 8640,
-    "oldPrice": 5400,
+    "price": 5400,
+    "oldPrice": 8640,
     "category": "PC Games",
     "tag": "Hot",
     "image": "/images/10_3.PNG",
@@ -880,8 +858,8 @@ const products = [
   },
   {
     "name": "Call of Duty: Black Ops PC Game",
-    "price": 8640,
-    "oldPrice": 5400,
+    "price": 5400,
+    "oldPrice": 8640,
     "category": "PC Games",
     "tag": "New",
     "image": "/images/10_4.PNG",
@@ -889,8 +867,8 @@ const products = [
   },
   {
     "name": "PES 2023 Football Life PC Game",
-    "price": 11520,
-    "oldPrice": 7200,
+    "price": 7200,
+    "oldPrice": 11520,
     "category": "PC Games",
     "tag": "Hot",
     "image": "/images/10_5.PNG",
@@ -898,19 +876,18 @@ const products = [
   },
   {
     "name": "GTA V - Grand Theft Auto PC Game",
-    "price": 14227,
-    "oldPrice": 8892,
+    "price": 8892,
+    "oldPrice": 14227,
     "category": "PC Games",
     "tag": "Hot",
     "image": "/images/10.PNG",
     "description": "Grand Theft Auto V - Epic open-world action game for PC with unmatched gameplay."
   },
-
   // ───── BEAUTY ─────
   {
     "name": "Premium Cosmetics Storage Organizer 4-Tier",
-    "price": 11520,
-    "oldPrice": 7200,
+    "price": 7200,
+    "oldPrice": 11520,
     "category": "Beauty",
     "tag": "Hot",
     "image": "/images/11.PNG",
@@ -918,8 +895,8 @@ const products = [
   },
   {
     "name": "Hair Treatment Mask - Orange Label",
-    "price": 7104,
-    "oldPrice": 4440,
+    "price": 4440,
+    "oldPrice": 7104,
     "category": "Beauty",
     "tag": "New",
     "image": "/images/11_1.PNG",
@@ -927,8 +904,8 @@ const products = [
   },
   {
     "name": "Cosmetics Storage Box with Drawer",
-    "price": 11520,
-    "oldPrice": 7200,
+    "price": 7200,
+    "oldPrice": 11520,
     "category": "Beauty",
     "tag": "Hot",
     "image": "/images/11_2.PNG",
@@ -936,8 +913,8 @@ const products = [
   },
   {
     "name": "Hair Growth Serum Premium Formula",
-    "price": 5472,
-    "oldPrice": 3420,
+    "price": 3420,
+    "oldPrice": 5472,
     "category": "Beauty",
     "tag": "New",
     "image": "/images/11_3.PNG",
@@ -945,8 +922,8 @@ const products = [
   },
   {
     "name": "False Eyelashes Set - 10 Pairs",
-    "price": 3888,
-    "oldPrice": 2430,
+    "price": 2430,
+    "oldPrice": 3888,
     "category": "Beauty",
     "tag": "Hot",
     "image": "/images/11_4.PNG",
@@ -954,8 +931,8 @@ const products = [
   },
   {
     "name": "24K Gold Face Cream - GUAN JING",
-    "price": 6720,
-    "oldPrice": 4200,
+    "price": 4200,
+    "oldPrice": 6720,
     "category": "Beauty",
     "tag": "New",
     "image": "/images/11_6.PNG",
@@ -963,8 +940,8 @@ const products = [
   },
   {
     "name": "Premium Face Moisturizer Cream",
-    "price": 5376,
-    "oldPrice": 3360,
+    "price": 3360,
+    "oldPrice": 5376,
     "category": "Beauty",
     "tag": "Hot",
     "image": "/images/11_5.PNG",
@@ -972,29 +949,13 @@ const products = [
   },
   {
     "name": "Portable Cosmetics Travel Bag - Blue Pattern",
-    "price": 6912,
-    "oldPrice": 4320,
+    "price": 4320,
+    "oldPrice": 6912,
     "category": "Beauty",
     "tag": "New",
     "image": "/images/11_7.PNG",
     "description": "Stylish blue patterned travel cosmetics bag with multiple compartments for organized beauty storage."
   }
-];
+];;
 
-const seed = async () => {
-  try {
-    await mongoose.connect(process.env.MONGODB_URI);
-    console.log('Connected to MongoDB');
-    await Product.deleteMany({});
-    console.log('Cleared existing products');
-    await Product.insertMany(products);
-    console.log(`Seeded ${products.length} products successfully`);
-  } catch (err) {
-    console.error('Seed error:', err);
-  } finally {
-    await mongoose.connection.close();
-    console.log('Connection closed');
-  }
-};
-
-seed();
+module.exports = products;
