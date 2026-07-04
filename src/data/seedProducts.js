@@ -197,7 +197,7 @@ const products = [
     "oldPrice": 29400,
     "category": "Power Banks",
     "tag": "New",
-    "image": "/images/baseus_lipo_powerbank.PNG",
+    "image": "/images/3_5.PNG",
     "description": "Baseus Lipo 20000mAh power bank with 3A fast charging, 3 outputs and 1 input port, travel-friendly for iOS and Android."
   },
   {
@@ -206,7 +206,7 @@ const products = [
     "oldPrice": 30100,
     "category": "Power Banks",
     "tag": "Hot",
-    "image": "/images/oraimo_anifast_powerbank.PNG",
+    "image": "/images/3_6.PNG",
     "description": "Oraimo Anifast power bank delivering reliable fast charging in a sleek, compact everyday-carry design."
   },
   {
@@ -215,7 +215,7 @@ const products = [
     "oldPrice": 27257,
     "category": "Power Banks",
     "tag": "New",
-    "image": "/images/romoss_powerbank.PNG",
+    "image": "/images/3_7.PNG",
     "description": "Romoss high-capacity power bank offering dependable backup power for phones and small devices."
   },
   {
@@ -224,7 +224,7 @@ const products = [
     "oldPrice": 35000,
     "category": "Power Banks",
     "tag": "Hot",
-    "image": "/images/canyon_powerbank.PNG",
+    "image": "/images/3_8.PNG",
     "description": "Canyon portable power bank with a durable white finish, ideal for daily commutes and travel."
   },
   // ───── CLOTHING ─────
@@ -533,7 +533,7 @@ const products = [
     "oldPrice": 10500,
     "category": "Gaming",
     "tag": "Hot",
-    "image": "/images/ps2_dualshock.PNG",
+    "image": "/images/4_9_5.PNG",
     "description": "Official Sony PS2 analog dual shock controller with responsive analog sticks and vibration feedback."
   },
   {
@@ -542,7 +542,7 @@ const products = [
     "oldPrice": 11199,
     "category": "Gaming",
     "tag": "New",
-    "image": "/images/ps3_dualshock.PNG",
+    "image": "/images/4_9_6.PNG",
     "description": "Wireless Sony PS3 Dual Shock 3 controller in white with SIXAXIS motion sensing and rechargeable battery."
   },
   // ───── LIGHTERS ─────
@@ -735,7 +735,7 @@ const products = [
     "oldPrice": 40320,
     "category": "Routers",
     "tag": "Hot",
-    "image": "/images/xiaomi_mesh_ac1200.PNG",
+    "image": "/images/9_4.PNG",
     "description": "Dual-band Wi-Fi mesh system up to 1200Mbps, seamlessly covers your whole home and connects up to 254 devices."
   },
   {
@@ -744,7 +744,7 @@ const products = [
     "oldPrice": 23800,
     "category": "Routers",
     "tag": "New",
-    "image": "/images/mtn_router_powerbank_k10.PNG",
+    "image": "/images/9_5.PNG",
     "description": "Original MTN Ops K10 5G router with built-in powerbank function for on-the-go connectivity."
   },
   {
@@ -753,7 +753,7 @@ const products = [
     "oldPrice": 21000,
     "category": "Routers",
     "tag": "Hot",
-    "image": "/images/mtn_cat4_k12_router.PNG",
+    "image": "/images/9_6.PNG",
     "description": "MTN official CAT4 K12 4G LTE router bundled with a free 50GB data SIM for instant home internet."
   },
   {
@@ -762,7 +762,7 @@ const products = [
     "oldPrice": 32122,
     "category": "Routers",
     "tag": "New",
-    "image": "/images/mifa_pocket_mifi.PNG",
+    "image": "/images/9_7.PNG",
     "description": "Built for Nigerian networks, this universal pocket mifi works seamlessly across all major providers for total network freedom."
   },
   {
@@ -771,7 +771,7 @@ const products = [
     "oldPrice": 6999,
     "category": "Routers",
     "tag": "Hot",
-    "image": "/images/usbc_powerline_cable.PNG",
+    "image": "/images/9_8.PNG",
     "description": "USB-C to DC 20V round port power cable with built-in PD decoy chip, supports 9V/12V fast charging for routers and power banks."
   },
   {
@@ -780,7 +780,7 @@ const products = [
     "oldPrice": 29568,
     "category": "Routers",
     "tag": "New",
-    "image": "/images/glo_4g_mifi.PNG",
+    "image": "/images/9_9.PNG",
     "description": "Glo-branded 4G LTE pocket MiFi device bundled with a free 30GB data allowance for portable home or office internet."
   },
   {
@@ -789,7 +789,7 @@ const products = [
     "oldPrice": 27859,
     "category": "Routers",
     "tag": "Hot",
-    "image": "/images/universal_4g_hotspot_modem.PNG",
+    "image": "/images/9_10.PNG",
     "description": "Insert any network SIM card to turn this USB modem into a wireless 4G LTE router, compatible with all Nigerian networks."
   },
   {
@@ -798,7 +798,7 @@ const products = [
     "oldPrice": 12768,
     "category": "Routers",
     "tag": "New",
-    "image": "/images/mtn_cat4_k12_bundle.PNG",
+    "image": "/images/9_11.PNG",
     "description": "Compact MTN CAT4 K12 4G LTE router with a bundled 50GB data SIM, ready to use out of the box."
   },
   {
@@ -807,7 +807,7 @@ const products = [
     "oldPrice": 20580,
     "category": "Routers",
     "tag": "Hot",
-    "image": "/images/mi_router_4c.PNG",
+    "image": "/images/9_12.PNG",
     "description": "Mi Router 4C with 4 antennas for wide, stable Wi-Fi coverage, 300Mbps high-speed Wi-Fi and app-controlled parental settings."
   },
   {
@@ -816,7 +816,7 @@ const products = [
     "oldPrice": 21533,
     "category": "Routers",
     "tag": "New",
-    "image": "/images/4g_mifi_modem_stick.PNG",
+    "image": "/images/9_13.PNG",
     "description": "Portable 4G LTE USB MiFi/UFI modem stick delivering up to 150Mbps wireless speeds for laptops and PCs."
   },
   {
@@ -825,7 +825,7 @@ const products = [
     "oldPrice": 20299,
     "category": "Routers",
     "tag": "Hot",
-    "image": "/images/4g_mifi_dongle.PNG",
+    "image": "/images/9_14.PNG",
     "description": "Compact 4G LTE wireless USB dongle providing instant mobile broadband for any network SIM."
   },
   // ───── PC GAMES ─────
