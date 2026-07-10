@@ -2,4 +2,4 @@ node_modules/
 .env
 *.log
 .DS_Store
-mongodb+srv://uchennamiracle89_db_user:ksPOye2TDXndBPAT@cluster0.fz8rvan.mongodb.net/sky-limited-stores?retryWrites=true&w=majority&appName=Cluster0
+mongodb+srv://uchennamiracle89_db_user:<db_password>@cluster0.fz8rvan.mongodb.net/?appName=Cluster0
