@@ -959,6 +959,152 @@ const products = [
     "tag": "New",
     "image": "/images/11_7.PNG",
     "description": "Stylish blue patterned travel cosmetics bag with multiple compartments for organized beauty storage."
+  },
+  // ───── AUDIO SPEAKERS (NEW CATEGORY) ─────
+  {
+    "name": "Zealot S532 Bluetooth Speaker Portable Stereo",
+    "price": 21280,
+    "oldPrice": 15200,
+    "category": "Audio Speakers",
+    "tag": "Hot",
+    "image": "/images/12_1.PNG",
+    "description": "Zealot S532 portable Bluetooth speaker with powerful stereo sound and waterproof design."
+  },
+  {
+    "name": "Zealot S32 Bluetooth Speaker Portable 3D Sound",
+    "price": 33600,
+    "oldPrice": 24000,
+    "category": "Audio Speakers",
+    "tag": "New",
+    "image": "/images/12_2.PNG",
+    "description": "Zealot S32 Bluetooth speaker with 3D stereo sound, long battery life, and portable design."
+  },
+  {
+    "name": "Zealot S61 Wireless BT Speaker Subwoofer Portable",
+    "price": 31927,
+    "oldPrice": 22805,
+    "category": "Audio Speakers",
+    "tag": "Hot",
+    "image": "/images/12_3.PNG",
+    "description": "Zealot S61 wireless speaker with powerful subwoofer bass, FM radio, and LED light."
+  },
+  {
+    "name": "Zealot S51 Portable Wireless Bluetooth Speaker Bass",
+    "price": 27720,
+    "oldPrice": 19800,
+    "category": "Audio Speakers",
+    "tag": "New",
+    "image": "/images/12_4.PNG",
+    "description": "Zealot S51 portable speaker with deep bass, extended battery, and waterproof rating."
+  },
+  {
+    "name": "Zealot S67 Portable Bluetooth Speaker 60W Bass Boombox Purple",
+    "price": 88200,
+    "oldPrice": 63000,
+    "category": "Audio Speakers",
+    "tag": "Hot",
+    "image": "/images/12_5.PNG",
+    "description": "Zealot S67 premium Bluetooth speaker with 60W output, deep bass, and 360° sound."
+  },
+  {
+    "name": "Zealot S67 Portable Bluetooth Boombox Speaker 60W Camouflage",
+    "price": 100800,
+    "oldPrice": 72000,
+    "category": "Audio Speakers",
+    "tag": "New",
+    "image": "/images/12_6.PNG",
+    "description": "Zealot S67 Bluetooth boombox with camouflage design, powerful 60W bass, and long battery."
+  },
+  // ───── SHOES (NEW CATEGORY) ─────
+  {
+    "name": "Men's Simple Casual Outdoor Quality Shoe Brown",
+    "price": 15428,
+    "oldPrice": 11020,
+    "category": "Shoes",
+    "tag": "Hot",
+    "image": "/images/13_1.PNG",
+    "description": "Comfortable men's casual outdoor shoe with quality materials and modern design."
+  },
+  {
+    "name": "Men's Simple Casual Comfortable Easy Wear Office Shoes",
+    "price": 13999,
+    "oldPrice": 9999,
+    "category": "Shoes",
+    "tag": "New",
+    "image": "/images/13_2.PNG",
+    "description": "Professional yet comfortable office shoes for men with easy-wear design."
+  },
+  {
+    "name": "Men's Sneaker Trainers Simple Casual Canvas Shoe Black",
+    "price": 13999,
+    "oldPrice": 9999,
+    "category": "Shoes",
+    "tag": "Hot",
+    "image": "/images/13_3.PNG",
+    "description": "Classic black canvas sneaker trainers for casual everyday wear and comfort."
+  },
+  {
+    "name": "Teen Children's Leather Sports Shoes Casual Running Sneakers",
+    "price": 11539,
+    "oldPrice": 8242,
+    "category": "Shoes",
+    "tag": "New",
+    "image": "/images/13_4.PNG",
+    "description": "Quality leather sports shoes for children with cushioned insoles for comfortable running."
+  },
+  {
+    "name": "Men's New Unisex Sneakers Sports Casual Running Shoes Black",
+    "price": 10283,
+    "oldPrice": 7345,
+    "category": "Shoes",
+    "tag": "Hot",
+    "image": "/images/13_5.PNG",
+    "description": "Unisex sports sneakers in black with breathable design for running and casual activities."
+  },
+  {
+    "name": "Men's Casual Outdoor Sport Sneakers Walking Shoes",
+    "price": 9002,
+    "oldPrice": 6430,
+    "category": "Shoes",
+    "tag": "New",
+    "image": "/images/13_6.PNG",
+    "description": "Outdoor sports sneakers designed for walking and casual wear with excellent grip."
+  },
+  {
+    "name": "Ladies Everything Simple Casual Comfortable Easy Wear Office Shoes",
+    "price": 12859,
+    "oldPrice": 9185,
+    "category": "Shoes",
+    "tag": "Hot",
+    "image": "/images/13_7.PNG",
+    "description": "Women's comfortable office shoes with simple design and easy-wear functionality."
+  },
+  {
+    "name": "Men's NYSC White Sneakers 2024 Men's Trainers Fashion",
+    "price": 10283,
+    "oldPrice": 7345,
+    "category": "Shoes",
+    "tag": "New",
+    "image": "/images/13_8.PNG",
+    "description": "Trendy white NYSC-inspired sneakers for men with fashionable trainer design."
+  },
+  {
+    "name": "Trendy Stylish Sneakers for Men Black Loafers Board Shoes",
+    "price": 16716,
+    "oldPrice": 11940,
+    "category": "Shoes",
+    "tag": "Hot",
+    "image": "/images/13_9.PNG",
+    "description": "Stylish black loafer-style sneakers combining comfort with trendy street fashion."
+  },
+  {
+    "name": "Men's Simple Casual Indoor Comfortable Sport Running Shoes",
+    "price": 15428,
+    "oldPrice": 11020,
+    "category": "Shoes",
+    "tag": "New",
+    "image": "/images/13_10.PNG",
+    "description": "Lightweight running shoes perfect for indoor sports and casual everyday comfort."
   }
 ];
 
