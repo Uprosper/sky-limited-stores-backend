@@ -1,4 +1,7 @@
 'use strict';
+require('dotenv').config();
+const mongoose = require('mongoose');
+const Product = mongoose.models.Product || require('./models/Product');
 
 const products = [
 {
@@ -139,8 +142,8 @@ const products = [
   // ───── POWER BANKS ─────
   {
     "name": "Oraimo Traveler 15 Power Bank 20000mAh 15W Type-C Fast Charging",
-    "price": 23874,
-    "oldPrice": 39790,
+    "price": 20548,
+    "oldPrice": 34247,
     "category": "Power Banks",
     "tag": "Hot",
     "image": "/images/3.PNG",
@@ -157,8 +160,8 @@ const products = [
   },
   {
     "name": "GDTINA 30000mAh 22.5W Super Fast Charging Power Bank",
-    "price": 24531,
-    "oldPrice": 40885,
+    "price": 20860,
+    "oldPrice": 34767,
     "category": "Power Banks",
     "tag": "Hot",
     "image": "/images/3_3.PNG",
@@ -166,8 +169,8 @@ const products = [
   },
   {
     "name": "Philly 20000mAh Power Charging Bank Portable Charger Ultra Slim",
-    "price": 12572,
-    "oldPrice": 20953,
+    "price": 10690,
+    "oldPrice": 17817,
     "category": "Power Banks",
     "tag": "New",
     "image": "/images/3_4.PNG",
@@ -175,8 +178,8 @@ const products = [
   },
   {
     "name": "Philly 50000mAh 66W Super Fast Charge Power Bank",
-    "price": 41983,
-    "oldPrice": 69972,
+    "price": 35700,
+    "oldPrice": 59500,
     "category": "Power Banks",
     "tag": "Hot",
     "image": "/images/3_1.PNG",
@@ -585,8 +588,8 @@ const products = [
   // ───── WATCHES ─────
   {
     "name": "BINBOND Men's Watch Fashion Waterproof Sport Quartz Business",
-    "price": 14484,
-    "oldPrice": 24140,
+    "price": 16934,
+    "oldPrice": 28223,
     "category": "Watches",
     "tag": "Hot",
     "image": "/images/5_2_1.PNG",
@@ -740,8 +743,8 @@ const products = [
   },
   {
     "name": "MTN Ops Router Powerbank K10 - Original 5G Router",
-    "price": 23800,
-    "oldPrice": 39667,
+    "price": 32200,
+    "oldPrice": 53667,
     "category": "Routers",
     "tag": "New",
     "image": "/images/9_5.PNG",
@@ -803,8 +806,8 @@ const products = [
   },
   {
     "name": "Xiaomi Mi Router 4C (White)",
-    "price": 20580,
-    "oldPrice": 34300,
+    "price": 33599,
+    "oldPrice": 55998,
     "category": "Routers",
     "tag": "Hot",
     "image": "/images/9_12.PNG",
@@ -1104,4 +1107,20 @@ const products = [
   }
 ];
 
-module.exports = products;
+const seed = async () => {
+  try {
+    await mongoose.connect(process.env.MONGODB_URI);
+    console.log('Connected to MongoDB');
+    await Product.deleteMany({});
+    console.log('Cleared existing products');
+    await Product.insertMany(products);
+    console.log(`Seeded ${products.length} products successfully`);
+  } catch (err) {
+    console.error('Seed error:', err);
+  } finally {
+    await mongoose.connection.close();
+    console.log('Connection closed');
+  }
+};
+
+seed();
