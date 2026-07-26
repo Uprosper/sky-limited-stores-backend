@@ -230,10 +230,10 @@ const products = [
     "image": "/images/3_8.PNG",
     "description": "Canyon portable power bank with a durable white finish, ideal for daily commutes and travel."
   },
-  // ───── CLOTHING ─────
+  // ───── CLOTHING (UPDATED WITH 40% MARKUP) ─────
   {
     "name": "Jonnie Striped Black Baggy Track Pants",
-    "price": 22226,
+    "price": 27840,
     "oldPrice": 37043,
     "category": "Clothing",
     "tag": "Hot",
@@ -242,7 +242,7 @@ const products = [
   },
   {
     "name": "Track Striped Baggy Trouser Black",
-    "price": 17780,
+    "price": 22358,
     "oldPrice": 29633,
     "category": "Clothing",
     "tag": "New",
@@ -251,7 +251,7 @@ const products = [
   },
   {
     "name": "UNLIMITED Baggy Track Joggers",
-    "price": 17041,
+    "price": 21448,
     "oldPrice": 28402,
     "category": "Clothing",
     "tag": "Hot",
@@ -260,7 +260,7 @@ const products = [
   },
   {
     "name": "Asake Round Neck T-Shirt",
-    "price": 14077,
+    "price": 17700,
     "oldPrice": 23462,
     "category": "Clothing",
     "tag": "New",
@@ -269,7 +269,7 @@ const products = [
   },
   {
     "name": "GALUIN Men's Casual Short-Sleeve Set",
-    "price": 18966,
+    "price": 23856,
     "oldPrice": 31610,
     "category": "Clothing",
     "tag": "Hot",
@@ -278,7 +278,7 @@ const products = [
   },
   {
     "name": "Berrykey Men's Pull Over Short Sleeve Polo Vintage Striped",
-    "price": 26622,
+    "price": 33456,
     "oldPrice": 44370,
     "category": "Clothing",
     "tag": "New",
@@ -287,7 +287,7 @@ const products = [
   },
   {
     "name": "Dou-color Men's 2-in-1 Racing Style Set",
-    "price": 14154,
+    "price": 17800,
     "oldPrice": 23590,
     "category": "Clothing",
     "tag": "Hot",
@@ -296,7 +296,7 @@ const products = [
   },
   {
     "name": "Men's Trendy Multi Short Sleeve Shirt Sweatshirts",
-    "price": 11690,
+    "price": 14700,
     "oldPrice": 19483,
     "category": "Clothing",
     "tag": "New",
@@ -305,7 +305,7 @@ const products = [
   },
   {
     "name": "Dinosaur Graphic T-Shirt",
-    "price": 6821,
+    "price": 8568,
     "oldPrice": 11368,
     "category": "Clothing",
     "tag": "New",
@@ -314,7 +314,7 @@ const products = [
   },
   {
     "name": "T-Rex Graphic T-Shirt",
-    "price": 6720,
+    "price": 8456,
     "oldPrice": 11200,
     "category": "Clothing",
     "tag": "New",
@@ -323,7 +323,7 @@ const products = [
   },
   {
     "name": "Fashion House Graphic Tee",
-    "price": 6720,
+    "price": 8456,
     "oldPrice": 11200,
     "category": "Clothing",
     "tag": "New",
@@ -332,7 +332,7 @@ const products = [
   },
   {
     "name": "Plain Unisex T-Shirt",
-    "price": 10080,
+    "price": 12672,
     "oldPrice": 16800,
     "category": "Clothing",
     "tag": "New",
@@ -585,10 +585,10 @@ const products = [
     "image": "/images/4_5_4.PNG",
     "description": "Pink rechargeable electric arc ignitor with long neck for safe and easy lighting."
   },
-  // ───── WATCHES ─────
+  // ───── WATCHES (UPDATED WITH 40% MARKUP) ─────
   {
     "name": "BINBOND Men's Watch Fashion Waterproof Sport Quartz Business",
-    "price": 16934,
+    "price": 20020,
     "oldPrice": 28223,
     "category": "Watches",
     "tag": "Hot",
@@ -597,7 +597,7 @@ const products = [
   },
   {
     "name": "WABOOC Men's Luxury Stainless Steel Quartz Watch Luminous",
-    "price": 27952,
+    "price": 32928,
     "oldPrice": 46587,
     "category": "Watches",
     "tag": "New",
@@ -606,7 +606,7 @@ const products = [
   },
   {
     "name": "Glow-in-the-Dark Rhinestone LED Student Couple Quartz Watch",
-    "price": 9367,
+    "price": 11068,
     "oldPrice": 15612,
     "category": "Watches",
     "tag": "Hot",
@@ -615,17 +615,17 @@ const products = [
   },
   {
     "name": "BINLIHUAN Men's Business Quartz Watch Luxury Skull Style",
-    "price": 18151,
+    "price": 21456,
     "oldPrice": 30252,
     "category": "Watches",
     "tag": "New",
     "image": "/images/5_1_3.PNG",
     "description": "Punk-style luxury skull quartz watch with genuine leather strap for men."
   },
-  // ───── SMARTWATCHES ─────
+  // ───── SMARTWATCHES (UPDATED WITH 40% MARKUP) ─────
   {
     "name": "Smart Sports Watch with Heart Rate Monitor",
-    "price": 6825,
+    "price": 8064,
     "oldPrice": 11375,
     "category": "Smartwatches",
     "tag": "Hot",
@@ -634,7 +634,7 @@ const products = [
   },
   {
     "name": "Premium Smartwatch Case Protector - Rose Gold",
-    "price": 2940,
+    "price": 3476,
     "oldPrice": 4900,
     "category": "Smartwatches",
     "tag": "New",
@@ -643,7 +643,7 @@ const products = [
   },
   {
     "name": "Premium Smartwatch Case Protector - Silver",
-    "price": 2940,
+    "price": 3476,
     "oldPrice": 4900,
     "category": "Smartwatches",
     "tag": "Hot",
@@ -652,7 +652,7 @@ const products = [
   },
   {
     "name": "Fitness Smartwatch with LED Display",
-    "price": 6720,
+    "price": 7952,
     "oldPrice": 11200,
     "category": "Smartwatches",
     "tag": "New",
@@ -661,7 +661,7 @@ const products = [
   },
   {
     "name": "Rugged Smartwatch with Interchangeable Band",
-    "price": 8400,
+    "price": 9940,
     "oldPrice": 14000,
     "category": "Smartwatches",
     "tag": "Hot",
@@ -670,7 +670,7 @@ const products = [
   },
   {
     "name": "Compact Smartwatch with Health Monitoring",
-    "price": 5880,
+    "price": 6952,
     "oldPrice": 9800,
     "category": "Smartwatches",
     "tag": "New",
@@ -679,7 +679,7 @@ const products = [
   },
   {
     "name": "Smartwatch with Stylish Pink Band",
-    "price": 5208,
+    "price": 6162,
     "oldPrice": 8680,
     "category": "Smartwatches",
     "tag": "Hot",
@@ -688,7 +688,7 @@ const products = [
   },
   {
     "name": "Smartwatch with Gray Band and LED Display",
-    "price": 5544,
+    "price": 6562,
     "oldPrice": 9240,
     "category": "Smartwatches",
     "tag": "New",
