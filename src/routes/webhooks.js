@@ -1,6 +1,8 @@
 const express = require('express');
 const Order = require('../models/Order');
+const User = require('../models/User');
 const { isValidWebhookSignature } = require('../utils/paystack');
+const { sendOrderConfirmationEmail } = require('../utils/brevo');
 
 const router = express.Router();
 
@@ -8,7 +10,6 @@ const router = express.Router();
 // Must use the raw request body (configured in server.js) to verify the signature.
 router.post('/paystack', async (req, res) => {
   const signature = req.headers['x-paystack-signature'];
-
   if (!isValidWebhookSignature(req.rawBody, signature)) {
     return res.status(401).send('Invalid signature');
   }
@@ -18,13 +19,18 @@ router.post('/paystack', async (req, res) => {
   try {
     if (event.event === 'charge.success') {
       const reference = event.data.reference;
-
       const order = await Order.findOne({ paymentReference: reference });
 
       if (order && order.paymentStatus !== 'paid') {
         order.paymentStatus = 'paid';
         order.pushStatus('paid', 'Payment confirmed via Paystack webhook.');
         await order.save();
+
+        // ── SEND CONFIRMATION EMAILS ──
+        const user = await User.findById(order.user);
+        if (user) {
+          await sendOrderConfirmationEmail(order, user);
+        }
       }
     }
 
