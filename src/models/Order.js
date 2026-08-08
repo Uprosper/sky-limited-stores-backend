@@ -23,6 +23,8 @@ const shippingAddressSchema = new mongoose.Schema(
     postalCode: { type: String, default: '' },
     country: { type: String, required: true },
     phone: { type: String, default: '' },
+    latitude: { type: Number, default: null },
+    longitude: { type: Number, default: null },
   },
   { _id: false }
 );
