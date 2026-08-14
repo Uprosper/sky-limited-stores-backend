@@ -1,10 +1,9 @@
 'use strict';
 
 const products = [
-// ───── EARBUDS (CHEAP - 40% MARKUP) ─────
 {
     "name": "Bolizma Bluetooth Sleep Earbuds with LED Display Charging Case",
-    "price": 19600,
+    "price": 8400,
     "oldPrice": 14000,
     "category": "Earbuds",
     "tag": "Hot",
@@ -13,7 +12,7 @@ const products = [
   },
   {
     "name": "itel Earbuds Wireless Bluetooth 5.3 Headphones with Deep Bass",
-    "price": 47367,
+    "price": 20300,
     "oldPrice": 33833,
     "category": "Earbuds",
     "tag": "New",
@@ -22,7 +21,7 @@ const products = [
   },
   {
     "name": "Bolizma Sleeping Earbuds Bluetooth 5.4 Earphones TWS",
-    "price": 30349,
+    "price": 13006,
     "oldPrice": 21677,
     "category": "Earbuds",
     "tag": "Hot",
@@ -31,7 +30,7 @@ const products = [
   },
   {
     "name": "Bolizma Black Wireless Open Ear Earbuds with Bluetooth Air Clip",
-    "price": 37240,
+    "price": 15960,
     "oldPrice": 26600,
     "category": "Earbuds",
     "tag": "New",
@@ -40,7 +39,7 @@ const products = [
   },
   {
     "name": "Noise Hush ORAIMO Bluetooth Earphones Wireless Gaming",
-    "price": 126444,
+    "price": 47417,
     "oldPrice": 79028,
     "category": "Earbuds",
     "tag": "Hot",
@@ -49,7 +48,7 @@ const products = [
   },
   {
     "name": "MingDe Era Wireless Earbuds with Noise Cancelling 30H",
-    "price": 38683,
+    "price": 14521,
     "oldPrice": 24202,
     "category": "Earbuds",
     "tag": "New",
@@ -58,7 +57,7 @@ const products = [
   },
   {
     "name": "Bolizma Wireless In-Ear Bluetooth Earbuds with Charging Case HiFi",
-    "price": 23047,
+    "price": 9877,
     "oldPrice": 16462,
     "category": "Earbuds",
     "tag": "Hot",
@@ -67,7 +66,7 @@ const products = [
   },
   {
     "name": "Bolizma Wireless Earbuds Bluetooth 5.4 Open Ear",
-    "price": 32651,
+    "price": 13993,
     "oldPrice": 23322,
     "category": "Earbuds",
     "tag": "New",
@@ -76,7 +75,7 @@ const products = [
   },
   {
     "name": "VANIR Open Ear Bluetooth Earbuds with Earhooks 48H",
-    "price": 47388,
+    "price": 17781,
     "oldPrice": 29635,
     "category": "Earbuds",
     "tag": "Hot",
@@ -85,7 +84,7 @@ const products = [
   },
   {
     "name": "Bolizma Wireless Earbuds with Digital Display Bluetooth 5.3",
-    "price": 30730,
+    "price": 13170,
     "oldPrice": 21950,
     "category": "Earbuds",
     "tag": "New",
@@ -94,7 +93,7 @@ const products = [
   },
   {
     "name": "Bolizma Wireless In-Ear Bluetooth Earbuds HiFi Charging Case",
-    "price": 23047,
+    "price": 9877,
     "oldPrice": 16462,
     "category": "Earbuds",
     "tag": "New",
@@ -103,7 +102,7 @@ const products = [
   },
   {
     "name": "Type-C Audio Adapter",
-    "price": 21168,
+    "price": 9072,
     "oldPrice": 15120,
     "category": "Earbuds",
     "tag": "New",
@@ -112,7 +111,7 @@ const products = [
   },
   {
     "name": "P47M Cat Ear Bluetooth Headphones",
-    "price": 22540,
+    "price": 9660,
     "oldPrice": 16100,
     "category": "Earbuds",
     "tag": "New",
@@ -121,7 +120,7 @@ const products = [
   },
   {
     "name": "P47M Wireless Bluetooth Headphones",
-    "price": 28770,
+    "price": 12330,
     "oldPrice": 20550,
     "category": "Earbuds",
     "tag": "New",
@@ -130,17 +129,17 @@ const products = [
   },
   {
     "name": "M90 Pro Bluetooth Earbuds",
-    "price": 29400,
+    "price": 12600,
     "oldPrice": 21000,
     "category": "Earbuds",
     "tag": "New",
     "image": "/images/2_8.PNG",
     "description": "Quality Pro Bluetooth Earbuds"
   },
-  // ───── POWER BANKS (EXPENSIVE - 60% MARKUP) ─────
+  // ───── POWER BANKS ─────
   {
     "name": "Oraimo Traveler 15 Power Bank 20000mAh 15W Type-C Fast Charging",
-    "price": 54795,
+    "price": 20548,
     "oldPrice": 34247,
     "category": "Power Banks",
     "tag": "Hot",
@@ -149,7 +148,7 @@ const products = [
   },
   {
     "name": "SUNDASELF Portable Power Bank 20000mAh x2 Dual USB",
-    "price": 69544,
+    "price": 26079,
     "oldPrice": 43465,
     "category": "Power Banks",
     "tag": "New",
@@ -158,7 +157,7 @@ const products = [
   },
   {
     "name": "GDTINA 30000mAh 22.5W Super Fast Charging Power Bank",
-    "price": 55627,
+    "price": 20860,
     "oldPrice": 34767,
     "category": "Power Banks",
     "tag": "Hot",
@@ -167,7 +166,7 @@ const products = [
   },
   {
     "name": "Philly 20000mAh Power Charging Bank Portable Charger Ultra Slim",
-    "price": 28506,
+    "price": 10690,
     "oldPrice": 17817,
     "category": "Power Banks",
     "tag": "New",
@@ -176,7 +175,7 @@ const products = [
   },
   {
     "name": "Philly 50000mAh 66W Super Fast Charge Power Bank",
-    "price": 95200,
+    "price": 35700,
     "oldPrice": 59500,
     "category": "Power Banks",
     "tag": "Hot",
@@ -185,7 +184,7 @@ const products = [
   },
   {
     "name": "AVNEX 50000mAh Strong Durable Full Capacity Large Power Bank",
-    "price": 129331,
+    "price": 48499,
     "oldPrice": 80832,
     "category": "Power Banks",
     "tag": "New",
@@ -194,7 +193,7 @@ const products = [
   },
   {
     "name": "Baseus Lipo 20000mAh Power Bank 3A Fast Charging",
-    "price": 78400,
+    "price": 29400,
     "oldPrice": 49000,
     "category": "Power Banks",
     "tag": "New",
@@ -203,7 +202,7 @@ const products = [
   },
   {
     "name": "Oraimo Anifast Power Bank",
-    "price": 80267,
+    "price": 30100,
     "oldPrice": 50167,
     "category": "Power Banks",
     "tag": "Hot",
@@ -212,7 +211,7 @@ const products = [
   },
   {
     "name": "Romoss Power Bank",
-    "price": 72685,
+    "price": 27257,
     "oldPrice": 45428,
     "category": "Power Banks",
     "tag": "New",
@@ -221,17 +220,17 @@ const products = [
   },
   {
     "name": "Canyon Power Bank",
-    "price": 93333,
+    "price": 35000,
     "oldPrice": 58333,
     "category": "Power Banks",
     "tag": "Hot",
     "image": "/images/3_8.PNG",
     "description": "Canyon portable power bank with a durable white finish, ideal for daily commutes and travel."
   },
-  // ───── CLOTHING (CHEAP - 40% MARKUP) ─────
+  // ───── CLOTHING (UPDATED WITH 40% MARKUP) ─────
   {
     "name": "Jonnie Striped Black Baggy Track Pants",
-    "price": 51860,
+    "price": 27840,
     "oldPrice": 37043,
     "category": "Clothing",
     "tag": "Hot",
@@ -240,7 +239,7 @@ const products = [
   },
   {
     "name": "Track Striped Baggy Trouser Black",
-    "price": 41487,
+    "price": 22358,
     "oldPrice": 29633,
     "category": "Clothing",
     "tag": "New",
@@ -249,7 +248,7 @@ const products = [
   },
   {
     "name": "UNLIMITED Baggy Track Joggers",
-    "price": 39763,
+    "price": 21448,
     "oldPrice": 28402,
     "category": "Clothing",
     "tag": "Hot",
@@ -258,7 +257,7 @@ const products = [
   },
   {
     "name": "Asake Round Neck T-Shirt",
-    "price": 32847,
+    "price": 17700,
     "oldPrice": 23462,
     "category": "Clothing",
     "tag": "New",
@@ -267,7 +266,7 @@ const products = [
   },
   {
     "name": "GALUIN Men's Casual Short-Sleeve Set",
-    "price": 44254,
+    "price": 23856,
     "oldPrice": 31610,
     "category": "Clothing",
     "tag": "Hot",
@@ -276,7 +275,7 @@ const products = [
   },
   {
     "name": "Berrykey Men's Pull Over Short Sleeve Polo Vintage Striped",
-    "price": 62118,
+    "price": 33456,
     "oldPrice": 44370,
     "category": "Clothing",
     "tag": "New",
@@ -285,7 +284,7 @@ const products = [
   },
   {
     "name": "Dou-color Men's 2-in-1 Racing Style Set",
-    "price": 33026,
+    "price": 17800,
     "oldPrice": 23590,
     "category": "Clothing",
     "tag": "Hot",
@@ -294,7 +293,7 @@ const products = [
   },
   {
     "name": "Men's Trendy Multi Short Sleeve Shirt Sweatshirts",
-    "price": 27276,
+    "price": 14700,
     "oldPrice": 19483,
     "category": "Clothing",
     "tag": "New",
@@ -303,7 +302,7 @@ const products = [
   },
   {
     "name": "Dinosaur Graphic T-Shirt",
-    "price": 15916,
+    "price": 8568,
     "oldPrice": 11368,
     "category": "Clothing",
     "tag": "New",
@@ -312,7 +311,7 @@ const products = [
   },
   {
     "name": "T-Rex Graphic T-Shirt",
-    "price": 15680,
+    "price": 8456,
     "oldPrice": 11200,
     "category": "Clothing",
     "tag": "New",
@@ -321,7 +320,7 @@ const products = [
   },
   {
     "name": "Fashion House Graphic Tee",
-    "price": 15680,
+    "price": 8456,
     "oldPrice": 11200,
     "category": "Clothing",
     "tag": "New",
@@ -330,17 +329,17 @@ const products = [
   },
   {
     "name": "Plain Unisex T-Shirt",
-    "price": 23520,
+    "price": 12672,
     "oldPrice": 16800,
     "category": "Clothing",
     "tag": "New",
     "image": "/images/4_11.PNG",
     "description": "Unisex T-Shirt."
   },
-  // ───── BAGS (EXPENSIVE - 60% MARKUP) ─────
+  // ───── BAGS ─────
   {
     "name": "NAOT NAOT Plush Love Handbag Shoulder Bag Crossbody",
-    "price": 17768,
+    "price": 6663,
     "oldPrice": 11105,
     "category": "Bags",
     "tag": "Hot",
@@ -349,7 +348,7 @@ const products = [
   },
   {
     "name": "addigoes Trendy Square Handbag For Women",
-    "price": 52676,
+    "price": 19754,
     "oldPrice": 32923,
     "category": "Bags",
     "tag": "New",
@@ -358,7 +357,7 @@ const products = [
   },
   {
     "name": "High Quality Padded Laptop Bag Laptop Pouch Case Sleeve",
-    "price": 37315,
+    "price": 13993,
     "oldPrice": 23322,
     "category": "Bags",
     "tag": "Hot",
@@ -367,7 +366,7 @@ const products = [
   },
   {
     "name": "GALUIN Waterproof Anti-theft Men's Backpack For Laptop",
-    "price": 60086,
+    "price": 22523,
     "oldPrice": 37538,
     "category": "Bags",
     "tag": "New",
@@ -376,7 +375,7 @@ const products = [
   },
   {
     "name": "Men Sling Bag Pack With Lock Waterproof Anti-Theft Chest Bag",
-    "price": 41424,
+    "price": 15534,
     "oldPrice": 25890,
     "category": "Bags",
     "tag": "Hot",
@@ -385,7 +384,7 @@ const products = [
   },
   {
     "name": "Single Laptop Table",
-    "price": 153664,
+    "price": 57624,
     "oldPrice": 96040,
     "category": "Bags",
     "tag": "New",
@@ -394,7 +393,7 @@ const products = [
   },
   {
     "name": "3 In 1 Multi Functional Backpack With USB Slot",
-    "price": 54115,
+    "price": 20293,
     "oldPrice": 33822,
     "category": "Bags",
     "tag": "Hot",
@@ -403,7 +402,7 @@ const products = [
   },
   {
     "name": "3-in-1 Productivity Offer: Premium Felt Laptop Bag with Stands",
-    "price": 100976,
+    "price": 37866,
     "oldPrice": 63110,
     "category": "Bags",
     "tag": "New",
@@ -412,17 +411,17 @@ const products = [
   },
   {
     "name": "High Quality Waterproof Backpack Laptop Bag with Padded Laptop",
-    "price": 57448,
+    "price": 21543,
     "oldPrice": 35905,
     "category": "Bags",
     "tag": "Hot",
     "image": "/images/5_2_2.PNG",
     "description": "Waterproof padded laptop backpack with multiple compartments and sleek design."
   },
-  // ───── GAMING (MIXED - 40% for small items, 60% for expensive) ─────
+  // ───── GAMING ─────
   {
     "name": "GtyGo Wired Gaming Mouse 7 Functional Keys RGB Light",
-    "price": 15078,
+    "price": 6462,
     "oldPrice": 10770,
     "category": "Gaming",
     "tag": "Hot",
@@ -431,7 +430,7 @@ const products = [
   },
   {
     "name": "Mechanical Keyboard 61-Key RGB Backlit Blue Switch Wired Gaming",
-    "price": 96589,
+    "price": 36221,
     "oldPrice": 60368,
     "category": "Gaming",
     "tag": "New",
@@ -440,7 +439,7 @@ const products = [
   },
   {
     "name": "Wired Luminescent Gaming Mouse/Mice Computer",
-    "price": 23996,
+    "price": 8999,
     "oldPrice": 14998,
     "category": "Gaming",
     "tag": "Hot",
@@ -449,7 +448,7 @@ const products = [
   },
   {
     "name": "WIRELESS RGB Gaming Mouse DPI Ergonomic Mice PC",
-    "price": 54880,
+    "price": 20580,
     "oldPrice": 34300,
     "category": "Gaming",
     "tag": "New",
@@ -458,7 +457,7 @@ const products = [
   },
   {
     "name": "Best Controllers Game Pads USB For PC & Laptops Windows",
-    "price": 43027,
+    "price": 16135,
     "oldPrice": 26892,
     "category": "Gaming",
     "tag": "Hot",
@@ -467,7 +466,7 @@ const products = [
   },
   {
     "name": "RGB Smart Wired Gaming Keyboard PC Laptop Gaming",
-    "price": 109760,
+    "price": 41160,
     "oldPrice": 68600,
     "category": "Gaming",
     "tag": "New",
@@ -476,7 +475,7 @@ const products = [
   },
   {
     "name": "8pcs Mobile Gaming Finger Sleeves Thumb Gloves For Mobile",
-    "price": 38378,
+    "price": 16447,
     "oldPrice": 27412,
     "category": "Gaming",
     "tag": "Hot",
@@ -485,7 +484,7 @@ const products = [
   },
   {
     "name": "4 Pcs Gaming Finger Sleeves Game Gloves Thumb Finger Cots",
-    "price": 12100,
+    "price": 5186,
     "oldPrice": 8643,
     "category": "Gaming",
     "tag": "New",
@@ -494,7 +493,7 @@ const products = [
   },
   {
     "name": "Finger Thumb Mobile Gaming Sleeves",
-    "price": 13444,
+    "price": 5762,
     "oldPrice": 9603,
     "category": "Gaming",
     "tag": "Hot",
@@ -503,7 +502,7 @@ const products = [
   },
   {
     "name": "Bluetooth Wireless Receiver Transmitter Audio Adapter",
-    "price": 39072,
+    "price": 14652,
     "oldPrice": 24420,
     "category": "Gaming",
     "tag": "New",
@@ -512,7 +511,7 @@ const products = [
   },
   {
     "name": "2IN1 Bluetooth Wireless Receiver Transmitter Audio Adapter",
-    "price": 39072,
+    "price": 14652,
     "oldPrice": 24420,
     "category": "Gaming",
     "tag": "Hot",
@@ -521,7 +520,7 @@ const products = [
   },
   {
     "name": "Universal Wireless Bluetooth Receiver & Transmitter Audio",
-    "price": 38194,
+    "price": 14323,
     "oldPrice": 23872,
     "category": "Gaming",
     "tag": "New",
@@ -530,7 +529,7 @@ const products = [
   },
   {
     "name": "Sony PlayStation 2 Analog Dual Shock 2 Controller",
-    "price": 28000,
+    "price": 10500,
     "oldPrice": 17500,
     "category": "Gaming",
     "tag": "Hot",
@@ -539,17 +538,17 @@ const products = [
   },
   {
     "name": "Sony PS3 Dual Shock 3 Wireless Game Pad - White",
-    "price": 29864,
+    "price": 11199,
     "oldPrice": 18665,
     "category": "Gaming",
     "tag": "New",
     "image": "/images/4_9_6.PNG",
     "description": "Wireless Sony PS3 Dual Shock 3 controller in white with SIXAXIS motion sensing and rechargeable battery."
   },
-  // ───── LIGHTERS (CHEAP - 40% MARKUP) ─────
+  // ───── LIGHTERS ─────
   {
     "name": "Rechargeable Electric Arc Ignitor with USB Cord for Gas Stoves",
-    "price": 20744,
+    "price": 8890,
     "oldPrice": 14817,
     "category": "Lighters",
     "tag": "Hot",
@@ -558,7 +557,7 @@ const products = [
   },
   {
     "name": "Rechargeable Electric Arc Ignitor Lifetime Warranty",
-    "price": 14213,
+    "price": 6091,
     "oldPrice": 10152,
     "category": "Lighters",
     "tag": "New",
@@ -567,7 +566,7 @@ const products = [
   },
   {
     "name": "Rechargeable Electric Arc Ignitor for Gas Stoves Colorful",
-    "price": 14175,
+    "price": 6075,
     "oldPrice": 10125,
     "category": "Lighters",
     "tag": "Hot",
@@ -576,17 +575,17 @@ const products = [
   },
   {
     "name": "Rechargeable Electric Arc Ignitor for Gas Stoves Pink",
-    "price": 19205,
+    "price": 8231,
     "oldPrice": 13718,
     "category": "Lighters",
     "tag": "New",
     "image": "/images/4_5_4.PNG",
     "description": "Pink rechargeable electric arc ignitor with long neck for safe and easy lighting."
   },
-  // ───── WATCHES (EXPENSIVE - 60% MARKUP) ─────
+  // ───── WATCHES (UPDATED WITH 40% MARKUP) ─────
   {
     "name": "BINBOND Men's Watch Fashion Waterproof Sport Quartz Business",
-    "price": 45157,
+    "price": 20020,
     "oldPrice": 28223,
     "category": "Watches",
     "tag": "Hot",
@@ -595,7 +594,7 @@ const products = [
   },
   {
     "name": "WABOOC Men's Luxury Stainless Steel Quartz Watch Luminous",
-    "price": 74539,
+    "price": 32928,
     "oldPrice": 46587,
     "category": "Watches",
     "tag": "New",
@@ -604,7 +603,7 @@ const products = [
   },
   {
     "name": "Glow-in-the-Dark Rhinestone LED Student Couple Quartz Watch",
-    "price": 24979,
+    "price": 11068,
     "oldPrice": 15612,
     "category": "Watches",
     "tag": "Hot",
@@ -613,17 +612,17 @@ const products = [
   },
   {
     "name": "BINLIHUAN Men's Business Quartz Watch Luxury Skull Style",
-    "price": 48403,
+    "price": 21456,
     "oldPrice": 30252,
     "category": "Watches",
     "tag": "New",
     "image": "/images/5_1_3.PNG",
     "description": "Punk-style luxury skull quartz watch with genuine leather strap for men."
   },
-  // ───── SMARTWATCHES (EXPENSIVE - 60% MARKUP) ─────
+  // ───── SMARTWATCHES (UPDATED WITH 40% MARKUP) ─────
   {
     "name": "Smart Sports Watch with Heart Rate Monitor",
-    "price": 18200,
+    "price": 8064,
     "oldPrice": 11375,
     "category": "Smartwatches",
     "tag": "Hot",
@@ -632,7 +631,7 @@ const products = [
   },
   {
     "name": "Premium Smartwatch Case Protector - Rose Gold",
-    "price": 7840,
+    "price": 3476,
     "oldPrice": 4900,
     "category": "Smartwatches",
     "tag": "New",
@@ -641,7 +640,7 @@ const products = [
   },
   {
     "name": "Premium Smartwatch Case Protector - Silver",
-    "price": 7840,
+    "price": 3476,
     "oldPrice": 4900,
     "category": "Smartwatches",
     "tag": "Hot",
@@ -650,7 +649,7 @@ const products = [
   },
   {
     "name": "Fitness Smartwatch with LED Display",
-    "price": 17920,
+    "price": 7952,
     "oldPrice": 11200,
     "category": "Smartwatches",
     "tag": "New",
@@ -659,7 +658,7 @@ const products = [
   },
   {
     "name": "Rugged Smartwatch with Interchangeable Band",
-    "price": 22400,
+    "price": 9940,
     "oldPrice": 14000,
     "category": "Smartwatches",
     "tag": "Hot",
@@ -668,7 +667,7 @@ const products = [
   },
   {
     "name": "Compact Smartwatch with Health Monitoring",
-    "price": 15680,
+    "price": 6952,
     "oldPrice": 9800,
     "category": "Smartwatches",
     "tag": "New",
@@ -677,7 +676,7 @@ const products = [
   },
   {
     "name": "Smartwatch with Stylish Pink Band",
-    "price": 13888,
+    "price": 6162,
     "oldPrice": 8680,
     "category": "Smartwatches",
     "tag": "Hot",
@@ -686,17 +685,17 @@ const products = [
   },
   {
     "name": "Smartwatch with Gray Band and LED Display",
-    "price": 14784,
+    "price": 6562,
     "oldPrice": 9240,
     "category": "Smartwatches",
     "tag": "New",
     "image": "/images/8_11.PNG",
     "description": "Modern smartwatch with gray band, LED display, and comprehensive fitness tracking features."
   },
-  // ───── ROUTERS (EXPENSIVE - 60% MARKUP) ─────
+  // ───── ROUTERS ─────
   {
     "name": "5G WiFi Router with High Speed Connectivity",
-    "price": 49280,
+    "price": 18480,
     "oldPrice": 30800,
     "category": "Routers",
     "tag": "Hot",
@@ -705,7 +704,7 @@ const products = [
   },
   {
     "name": "MTN 5G Router - Premium Model",
-    "price": 25088,
+    "price": 9408,
     "oldPrice": 15680,
     "category": "Routers",
     "tag": "New",
@@ -714,7 +713,7 @@ const products = [
   },
   {
     "name": "MTN 5G Booster - Enhanced Coverage",
-    "price": 21952,
+    "price": 8232,
     "oldPrice": 13720,
     "category": "Routers",
     "tag": "Hot",
@@ -723,7 +722,7 @@ const products = [
   },
   {
     "name": "MTN 5G Signal Enhancer",
-    "price": 20608,
+    "price": 7728,
     "oldPrice": 12880,
     "category": "Routers",
     "tag": "New",
@@ -732,7 +731,7 @@ const products = [
   },
   {
     "name": "Xiaomi Mesh System AC1200 EU White",
-    "price": 107520,
+    "price": 40320,
     "oldPrice": 67200,
     "category": "Routers",
     "tag": "Hot",
@@ -741,7 +740,7 @@ const products = [
   },
   {
     "name": "MTN Ops Router Powerbank K10 - Original 5G Router",
-    "price": 85867,
+    "price": 32200,
     "oldPrice": 53667,
     "category": "Routers",
     "tag": "New",
@@ -750,7 +749,7 @@ const products = [
   },
   {
     "name": "MTN CAT4 K12 4G LTE Router + Free 50GB Data SIM",
-    "price": 56000,
+    "price": 21000,
     "oldPrice": 35000,
     "category": "Routers",
     "tag": "Hot",
@@ -759,7 +758,7 @@ const products = [
   },
   {
     "name": "Mifa Universal 4G LTE Pocket Mifi Mobile WiFi Hotspot Router",
-    "price": 85660,
+    "price": 32122,
     "oldPrice": 53537,
     "category": "Routers",
     "tag": "New",
@@ -768,7 +767,7 @@ const products = [
   },
   {
     "name": "USB Type-C to DC Power Line Cable for Router/Powerbank",
-    "price": 18664,
+    "price": 6999,
     "oldPrice": 11665,
     "category": "Routers",
     "tag": "Hot",
@@ -777,7 +776,7 @@ const products = [
   },
   {
     "name": "Glo 4G LTE MiFi Pocket Mobile WiFi with Free 30GB",
-    "price": 78848,
+    "price": 29568,
     "oldPrice": 49280,
     "category": "Routers",
     "tag": "New",
@@ -786,7 +785,7 @@ const products = [
   },
   {
     "name": "Universal USB 4G LTE WiFi Hotspot Modem - All Networks",
-    "price": 74291,
+    "price": 27859,
     "oldPrice": 46432,
     "category": "Routers",
     "tag": "Hot",
@@ -795,7 +794,7 @@ const products = [
   },
   {
     "name": "MTN CAT4 K12 4G LTE Router + Free 50GB Data Sim Bundle",
-    "price": 34048,
+    "price": 12768,
     "oldPrice": 21280,
     "category": "Routers",
     "tag": "New",
@@ -804,7 +803,7 @@ const products = [
   },
   {
     "name": "Xiaomi Mi Router 4C (White)",
-    "price": 89597,
+    "price": 33599,
     "oldPrice": 55998,
     "category": "Routers",
     "tag": "Hot",
@@ -813,7 +812,7 @@ const products = [
   },
   {
     "name": "4G LTE USB MiFi/UFI 150Mbps Modem Stick - Portable Wireless",
-    "price": 57421,
+    "price": 21533,
     "oldPrice": 35888,
     "category": "Routers",
     "tag": "New",
@@ -822,17 +821,17 @@ const products = [
   },
   {
     "name": "4G LTE Wireless USB MiFi/UFI Dongle Mobile Broadband",
-    "price": 54131,
+    "price": 20299,
     "oldPrice": 33832,
     "category": "Routers",
     "tag": "Hot",
     "image": "/images/9_14.PNG",
     "description": "Compact 4G LTE wireless USB dongle providing instant mobile broadband for any network SIM."
   },
-  // ───── PC GAMES (CHEAP - 40% MARKUP) ─────
+  // ───── PC GAMES ─────
   {
     "name": "BLUR Racing PC Game",
-    "price": 17640,
+    "price": 7560,
     "oldPrice": 12600,
     "category": "PC Games",
     "tag": "Hot",
@@ -841,7 +840,7 @@ const products = [
   },
   {
     "name": "Call of Duty: Modern Warfare PC Game",
-    "price": 17640,
+    "price": 7560,
     "oldPrice": 12600,
     "category": "PC Games",
     "tag": "New",
@@ -850,7 +849,7 @@ const products = [
   },
   {
     "name": "Call of Duty: Day Zero Edition PC Game",
-    "price": 17640,
+    "price": 7560,
     "oldPrice": 12600,
     "category": "PC Games",
     "tag": "Hot",
@@ -859,7 +858,7 @@ const products = [
   },
   {
     "name": "Call of Duty: Black Ops PC Game",
-    "price": 17640,
+    "price": 7560,
     "oldPrice": 12600,
     "category": "PC Games",
     "tag": "New",
@@ -868,7 +867,7 @@ const products = [
   },
   {
     "name": "PES 2023 Football Life PC Game",
-    "price": 23520,
+    "price": 10080,
     "oldPrice": 16800,
     "category": "PC Games",
     "tag": "Hot",
@@ -877,17 +876,17 @@ const products = [
   },
   {
     "name": "GTA V - Grand Theft Auto PC Game",
-    "price": 29047,
+    "price": 12449,
     "oldPrice": 20748,
     "category": "PC Games",
     "tag": "Hot",
     "image": "/images/10.PNG",
     "description": "Grand Theft Auto V - Epic open-world action game for PC with unmatched gameplay."
   },
-  // ───── BEAUTY (CHEAP - 40% MARKUP) ─────
+  // ───── BEAUTY ─────
   {
     "name": "Premium Cosmetics Storage Organizer 4-Tier",
-    "price": 23520,
+    "price": 10080,
     "oldPrice": 16800,
     "category": "Beauty",
     "tag": "Hot",
@@ -896,7 +895,7 @@ const products = [
   },
   {
     "name": "Hair Treatment Mask - Orange Label",
-    "price": 14504,
+    "price": 6216,
     "oldPrice": 10360,
     "category": "Beauty",
     "tag": "New",
@@ -905,7 +904,7 @@ const products = [
   },
   {
     "name": "Cosmetics Storage Box with Drawer",
-    "price": 23520,
+    "price": 10080,
     "oldPrice": 16800,
     "category": "Beauty",
     "tag": "Hot",
@@ -914,7 +913,7 @@ const products = [
   },
   {
     "name": "Hair Growth Serum Premium Formula",
-    "price": 11172,
+    "price": 4788,
     "oldPrice": 7980,
     "category": "Beauty",
     "tag": "New",
@@ -923,7 +922,7 @@ const products = [
   },
   {
     "name": "False Eyelashes Set - 10 Pairs",
-    "price": 7938,
+    "price": 3402,
     "oldPrice": 5670,
     "category": "Beauty",
     "tag": "Hot",
@@ -932,7 +931,7 @@ const products = [
   },
   {
     "name": "24K Gold Face Cream - GUAN JING",
-    "price": 13720,
+    "price": 5880,
     "oldPrice": 9800,
     "category": "Beauty",
     "tag": "New",
@@ -941,7 +940,7 @@ const products = [
   },
   {
     "name": "Premium Face Moisturizer Cream",
-    "price": 10976,
+    "price": 4704,
     "oldPrice": 7840,
     "category": "Beauty",
     "tag": "Hot",
@@ -950,17 +949,17 @@ const products = [
   },
   {
     "name": "Portable Cosmetics Travel Bag - Blue Pattern",
-    "price": 14112,
+    "price": 6048,
     "oldPrice": 10080,
     "category": "Beauty",
     "tag": "New",
     "image": "/images/11_7.PNG",
     "description": "Stylish blue patterned travel cosmetics bag with multiple compartments for organized beauty storage."
   },
-  // ───── AUDIO SPEAKERS (EXPENSIVE - 70% MARKUP) ─────
+  // ───── AUDIO SPEAKERS (NEW CATEGORY) ─────
   {
     "name": "Zealot S532 Bluetooth Speaker Portable Stereo",
-    "price": 84410,
+    "price": 29792,
     "oldPrice": 49653,
     "category": "Audio Speakers",
     "tag": "Hot",
@@ -969,7 +968,7 @@ const products = [
   },
   {
     "name": "Zealot S32 Bluetooth Speaker Portable 3D Sound",
-    "price": 133080,
+    "price": 47040,
     "oldPrice": 78400,
     "category": "Audio Speakers",
     "tag": "New",
@@ -978,7 +977,7 @@ const products = [
   },
   {
     "name": "Zealot S61 Wireless BT Speaker Subwoofer Portable",
-    "price": 126644,
+    "price": 44698,
     "oldPrice": 74497,
     "category": "Audio Speakers",
     "tag": "Hot",
@@ -987,7 +986,7 @@ const products = [
   },
   {
     "name": "Zealot S51 Portable Wireless Bluetooth Speaker Bass",
-    "price": 109956,
+    "price": 38808,
     "oldPrice": 64680,
     "category": "Audio Speakers",
     "tag": "New",
@@ -996,7 +995,7 @@ const products = [
   },
   {
     "name": "Zealot S67 Portable Bluetooth Speaker 60W Bass Boombox Purple",
-    "price": 349860,
+    "price": 123480,
     "oldPrice": 205800,
     "category": "Audio Speakers",
     "tag": "Hot",
@@ -1005,17 +1004,17 @@ const products = [
   },
   {
     "name": "Zealot S67 Portable Bluetooth Boombox Speaker 60W Camouflage",
-    "price": 399840,
+    "price": 141120,
     "oldPrice": 235200,
     "category": "Audio Speakers",
     "tag": "New",
     "image": "/images/12_6.PNG",
     "description": "Zealot S67 Bluetooth boombox with camouflage design, powerful 60W bass, and long battery."
   },
-  // ───── SHOES (EXPENSIVE - 60% MARKUP) ─────
+  // ───── SHOES (NEW CATEGORY) ─────
   {
     "name": "Men's Simple Casual Outdoor Quality Shoe Brown",
-    "price": 57597,
+    "price": 21599,
     "oldPrice": 35998,
     "category": "Shoes",
     "tag": "Hot",
@@ -1024,7 +1023,7 @@ const products = [
   },
   {
     "name": "Men's Simple Casual Comfortable Easy Wear Office Shoes",
-    "price": 52264,
+    "price": 19599,
     "oldPrice": 32665,
     "category": "Shoes",
     "tag": "New",
@@ -1033,7 +1032,7 @@ const products = [
   },
   {
     "name": "Men's Sneaker Trainers Simple Casual Canvas Shoe Black",
-    "price": 52264,
+    "price": 19599,
     "oldPrice": 32665,
     "category": "Shoes",
     "tag": "Hot",
@@ -1042,7 +1041,7 @@ const products = [
   },
   {
     "name": "Teen Children's Leather Sports Shoes Casual Running Sneakers",
-    "price": 43080,
+    "price": 16155,
     "oldPrice": 26925,
     "category": "Shoes",
     "tag": "New",
@@ -1051,7 +1050,7 @@ const products = [
   },
   {
     "name": "Men's New Unisex Sneakers Sports Casual Running Shoes Black",
-    "price": 38389,
+    "price": 14396,
     "oldPrice": 23993,
     "category": "Shoes",
     "tag": "Hot",
@@ -1060,7 +1059,7 @@ const products = [
   },
   {
     "name": "Men's Casual Outdoor Sport Sneakers Walking Shoes",
-    "price": 33608,
+    "price": 12603,
     "oldPrice": 21005,
     "category": "Shoes",
     "tag": "New",
@@ -1069,7 +1068,7 @@ const products = [
   },
   {
     "name": "Ladies Everything Simple Casual Comfortable Easy Wear Office Shoes",
-    "price": 48008,
+    "price": 18003,
     "oldPrice": 30005,
     "category": "Shoes",
     "tag": "Hot",
@@ -1078,7 +1077,7 @@ const products = [
   },
   {
     "name": "Men's NYSC White Sneakers 2024 Men's Trainers Fashion",
-    "price": 38389,
+    "price": 14396,
     "oldPrice": 23993,
     "category": "Shoes",
     "tag": "New",
@@ -1087,7 +1086,7 @@ const products = [
   },
   {
     "name": "Trendy Stylish Sneakers for Men Black Loafers Board Shoes",
-    "price": 62404,
+    "price": 23402,
     "oldPrice": 39003,
     "category": "Shoes",
     "tag": "Hot",
@@ -1096,7 +1095,7 @@ const products = [
   },
   {
     "name": "Men's Simple Casual Indoor Comfortable Sport Running Shoes",
-    "price": 57597,
+    "price": 21599,
     "oldPrice": 35998,
     "category": "Shoes",
     "tag": "New",
